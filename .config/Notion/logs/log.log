@@ -1,0 +1,1718 @@
+[2021-12-18 18:02:33.201] [info] Checking for update
+[2021-12-18 18:02:33.261] [info] Error reading /home/ackbar/.config/Notion/cookies.json {
+  constructor: 'Error',
+  errno: -2,
+  syscall: 'open',
+  code: 'ENOENT',
+  path: '/home/ackbar/.config/Notion/cookies.json',
+  stack: "Error: /home/ackbar/.config/Notion/cookies.json: ENOENT: no such file or directory, open '/home/ackbar/.config/Notion/cookies.json'\n" +
+    '    at Object.openSync (fs.js:466:3)\n' +
+    '    at Object.func [as openSync] (electron/js2c/asar_bundle.js:5:1812)\n' +
+    '    at Object.readFileSync (fs.js:368:35)\n' +
+    '    at Object.e.readFileSync (electron/js2c/asar_bundle.js:5:8583)\n' +
+    '    at Object.readFileSync (/usr/share/lotion-native/Lotion/resources/app/node_modules/jsonfile/index.js:61:22)\n' +
+    '    at JsonStore.loadSync (/usr/share/lotion-native/Lotion/resources/app/main/JsonStore.js:34:28)\n' +
+    '    at new JsonStore (/usr/share/lotion-native/Lotion/resources/app/main/JsonStore.js:11:14)\n' +
+    '    at Object.<anonymous> (/usr/share/lotion-native/Lotion/resources/app/main/schemeHandler.js:13:25)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1152:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1173:10)'
+}
+[2021-12-18 18:02:33.396] [info] latestVersion.json path /home/ackbar/.config/Notion/notionAssetCache-v2/latestVersion.json
+[2021-12-18 18:02:33.398] [error] Error: Error: ENOENT: no such file or directory, open '/usr/share/lotion-native/Lotion/resources/app-update.yml'
+[2021-12-18 18:02:33.398] [info] Error reading /home/ackbar/.config/Notion/notionAssetCache-v2/latestVersion.json {
+  constructor: 'Error',
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/ackbar/.config/Notion/notionAssetCache-v2/latestVersion.json',
+  stack: "Error: ENOENT: no such file or directory, open '/home/ackbar/.config/Notion/notionAssetCache-v2/latestVersion.json'"
+}
+[2021-12-18 18:02:33.399] [info] Current version loaded: undefined
+[2021-12-18 18:02:33.399] [info] Sync versions: empty latestVersion
+[2021-12-18 18:02:33.399] [info] Current synced assets.json: undefined
+[2021-12-18 18:02:43.275] [info] Checking for app update
+[2021-12-18 18:02:43.572] [info] App update available 23.10.16.6
+[2021-12-18 18:02:48.598] [info] App update download complete 23.10.16.6
+[2021-12-18 18:02:48.598] [info] Installing app update 23.10.16.6
+[2021-12-18 18:03:48.630] [info] Checking for app update
+[2021-12-18 18:03:48.937] [info] No app update available
+[2021-12-18 18:04:48.991] [info] Checking for app update
+[2021-12-18 18:04:49.462] [info] No app update available
+[2021-12-18 18:05:49.524] [info] Checking for app update
+[2021-12-18 18:05:49.847] [info] No app update available
+[2021-12-18 18:06:49.905] [info] Checking for app update
+[2021-12-18 18:06:50.185] [info] No app update available
+[2021-12-18 18:07:50.243] [info] Checking for app update
+[2021-12-18 18:07:50.671] [info] No app update available
+[2021-12-18 18:08:50.732] [info] Checking for app update
+[2021-12-18 18:08:51.766] [info] No app update available
+[2021-12-18 18:09:51.824] [info] Checking for app update
+[2021-12-18 18:09:53.089] [info] No app update available
+[2021-12-18 18:10:53.160] [info] Checking for app update
+[2021-12-18 18:10:53.461] [info] No app update available
+[2021-12-18 18:11:53.503] [info] Checking for app update
+[2021-12-18 18:11:53.988] [info] No app update available
+[2021-12-18 18:12:54.005] [info] Checking for app update
+[2021-12-18 18:12:54.961] [info] No app update available
+[2021-12-18 18:13:55.019] [info] Checking for app update
+[2021-12-18 18:13:56.012] [info] No app update available
+[2021-12-18 18:14:56.063] [info] Checking for app update
+[2021-12-18 18:14:56.629] [info] No app update available
+[2021-12-18 18:15:56.689] [info] Checking for app update
+[2021-12-18 18:15:57.012] [info] No app update available
+[2021-12-18 18:16:57.074] [info] Checking for app update
+[2021-12-18 18:16:57.384] [info] No app update available
+[2021-12-18 18:17:57.417] [info] Checking for app update
+[2021-12-18 18:17:57.700] [info] No app update available
+[2021-12-18 18:18:57.749] [info] Checking for app update
+[2021-12-18 18:18:58.056] [info] No app update available
+[2021-12-18 18:19:58.109] [info] Checking for app update
+[2021-12-18 18:19:58.416] [info] No app update available
+[2021-12-18 18:20:58.477] [info] Checking for app update
+[2021-12-18 18:20:58.947] [info] No app update available
+[2021-12-18 18:21:59.020] [info] Checking for app update
+[2021-12-18 18:21:59.409] [info] No app update available
+[2021-12-18 18:22:59.431] [info] Checking for app update
+[2021-12-18 18:22:59.878] [info] No app update available
+[2021-12-18 18:23:59.941] [info] Checking for app update
+[2021-12-18 18:24:00.389] [info] No app update available
+[2021-12-18 18:25:00.450] [info] Checking for app update
+[2021-12-18 18:25:00.775] [info] No app update available
+[2021-12-18 18:26:00.833] [info] Checking for app update
+[2021-12-18 18:26:01.139] [info] No app update available
+[2021-12-18 18:27:01.199] [info] Checking for app update
+[2021-12-18 18:27:01.490] [info] No app update available
+[2021-12-18 18:28:01.550] [info] Checking for app update
+[2021-12-18 18:28:02.040] [info] No app update available
+[2021-12-18 18:29:02.102] [info] Checking for app update
+[2021-12-18 18:29:02.595] [info] No app update available
+[2021-12-18 18:30:02.647] [info] Checking for app update
+[2021-12-18 18:30:03.749] [info] No app update available
+[2021-12-18 18:31:03.813] [info] Checking for app update
+[2021-12-18 18:31:04.311] [info] No app update available
+[2021-12-18 18:32:04.362] [info] Checking for app update
+[2021-12-18 18:32:04.644] [info] No app update available
+[2021-12-18 18:33:04.673] [info] Checking for app update
+[2021-12-18 18:33:05.151] [info] No app update available
+[2021-12-18 18:34:05.210] [info] Checking for app update
+[2021-12-18 18:34:05.656] [info] No app update available
+[2021-12-18 18:34:56.005] [info] Checking for update
+[2021-12-18 18:34:56.541] [info] latestVersion.json path /home/ackbar/.config/Notion/notionAssetCache-v2/latestVersion.json
+[2021-12-18 18:34:56.566] [error] Error: Error: ENOENT: no such file or directory, open '/usr/share/lotion-native/Lotion/resources/app-update.yml'
+[2021-12-18 18:34:56.570] [info] Current version loaded: {"version":"23.10.16.6"}
+[2021-12-18 18:34:56.571] [info] Sync versions: assets.json path /home/ackbar/.config/Notion/notionAssetCache-v2/23.10.16.6/assets.json headers.json path /home/ackbar/.config/Notion/notionAssetCache-v2/23.10.16.6/headers.json
+[2021-12-18 18:34:56.597] [info] Current synced assets.json: 23.10.16.6
+[2021-12-18 18:34:57.508] [info] Sync versions: same version skipping sync
+[2021-12-18 18:34:57.509] [info] Performing file request: /, abs path /home/ackbar/.config/Notion/notionAssetCache-v2/23.10.16.6/assets/index-ko-KR-6f9c3e85253a8d7af157.html
+[2021-12-18 18:34:57.800] [info] Performing file request: /711-17b0a195537095b60ea5.js, abs path /home/ackbar/.config/Notion/notionAssetCache-v2/23.10.16.6/assets/711-17b0a195537095b60ea5.js
+[2021-12-18 18:34:57.809] [info] Performing file request: /app-bbb4170b2d835f469af5.js, abs path /home/ackbar/.config/Notion/notionAssetCache-v2/23.10.16.6/assets/app-bbb4170b2d835f469af5.js
+[2021-12-18 18:34:57.810] [info] Performing file request: /app-21eb0c05ca983c393d67.css, abs path /home/ackbar/.config/Notion/notionAssetCache-v2/23.10.16.6/assets/app-21eb0c05ca983c393d67.css
+[2021-12-18 18:34:57.812] [info] Performing file request: /print.b31f28aa.css, abs path /home/ackbar/.config/Notion/notionAssetCache-v2/23.10.16.6/assets/print.b31f28aa.css
+[2021-12-18 18:34:58.680] [info] Performing file request: /markdown-linkify-it-1b44aab5f3847126306c.js, abs path /home/ackbar/.config/Notion/notionAssetCache-v2/23.10.16.6/assets/markdown-linkify-it-1b44aab5f3847126306c.js
+[2021-12-18 18:34:59.028] [info] Performing file request: /primus-11bd7655d61c6a4f81ab.js, abs path /home/ackbar/.config/Notion/notionAssetCache-v2/23.10.16.6/assets/primus-11bd7655d61c6a4f81ab.js
+[2021-12-18 18:35:01.929] [info] Performing file request: /177-6c446ad5a4779bcb3e95.js, abs path /home/ackbar/.config/Notion/notionAssetCache-v2/23.10.16.6/assets/177-6c446ad5a4779bcb3e95.js
+[2021-12-18 18:35:01.930] [info] Performing file request: /postRender-a054fd6bb1adf9f10fe7.js, abs path /home/ackbar/.config/Notion/notionAssetCache-v2/23.10.16.6/assets/postRender-a054fd6bb1adf9f10fe7.js
+[2021-12-18 18:35:02.109] [info] Performing file request: /analytics-amplitude-981617b84d3bec606641.js, abs path /home/ackbar/.config/Notion/notionAssetCache-v2/23.10.16.6/assets/analytics-amplitude-981617b84d3bec606641.js
+[2021-12-18 18:35:02.110] [info] Performing file request: /analytics-segment-7185b3586932d9409904.js, abs path /home/ackbar/.config/Notion/notionAssetCache-v2/23.10.16.6/assets/analytics-segment-7185b3586932d9409904.js
+[2021-12-18 18:35:02.336] [info] Performing file request: /ajs-destination-6dd326b5dd0e028410b5.js, abs path /home/ackbar/.config/Notion/notionAssetCache-v2/23.10.16.6/assets/ajs-destination-6dd326b5dd0e028410b5.js
+[2021-12-18 18:35:06.206] [info] Checking for app update
+[2021-12-18 18:35:06.593] [info] No app update available
+[2021-12-18 18:36:06.647] [info] Checking for app update
+[2021-12-18 18:36:06.995] [info] No app update available
+[2021-12-18 18:37:07.056] [info] Checking for app update
+[2021-12-18 18:37:07.343] [info] No app update available
+[2021-12-18 20:34:16.873] [info] Checking for update
+[2021-12-18 20:34:17.446] [info] latestVersion.json path /home/ackbar/.config/Notion/notionAssetCache-v2/latestVersion.json
+[2021-12-18 20:34:17.467] [error] Error: Error: ENOENT: no such file or directory, open '/usr/share/lotion-native/Lotion/resources/app-update.yml'
+[2021-12-18 20:34:17.474] [info] Current version loaded: {"version":"23.10.16.6"}
+[2021-12-18 20:34:17.475] [info] Sync versions: assets.json path /home/ackbar/.config/Notion/notionAssetCache-v2/23.10.16.6/assets.json headers.json path /home/ackbar/.config/Notion/notionAssetCache-v2/23.10.16.6/headers.json
+[2021-12-18 20:34:17.522] [info] Current synced assets.json: 23.10.16.6
+[2021-12-18 20:34:18.328] [info] Sync versions: same version skipping sync
+[2021-12-18 20:34:18.330] [info] Performing file request: /, abs path /home/ackbar/.config/Notion/notionAssetCache-v2/23.10.16.6/assets/index-ko-KR-6f9c3e85253a8d7af157.html
+[2021-12-18 20:34:18.561] [info] Performing file request: /711-17b0a195537095b60ea5.js, abs path /home/ackbar/.config/Notion/notionAssetCache-v2/23.10.16.6/assets/711-17b0a195537095b60ea5.js
+[2021-12-18 20:34:18.564] [info] Performing file request: /app-bbb4170b2d835f469af5.js, abs path /home/ackbar/.config/Notion/notionAssetCache-v2/23.10.16.6/assets/app-bbb4170b2d835f469af5.js
+[2021-12-18 20:34:18.565] [info] Performing file request: /app-21eb0c05ca983c393d67.css, abs path /home/ackbar/.config/Notion/notionAssetCache-v2/23.10.16.6/assets/app-21eb0c05ca983c393d67.css
+[2021-12-18 20:34:18.568] [info] Performing file request: /print.b31f28aa.css, abs path /home/ackbar/.config/Notion/notionAssetCache-v2/23.10.16.6/assets/print.b31f28aa.css
+[2021-12-18 20:34:19.456] [info] Performing file request: /markdown-linkify-it-1b44aab5f3847126306c.js, abs path /home/ackbar/.config/Notion/notionAssetCache-v2/23.10.16.6/assets/markdown-linkify-it-1b44aab5f3847126306c.js
+[2021-12-18 20:34:19.735] [info] Performing file request: /primus-11bd7655d61c6a4f81ab.js, abs path /home/ackbar/.config/Notion/notionAssetCache-v2/23.10.16.6/assets/primus-11bd7655d61c6a4f81ab.js
+[2021-12-18 20:34:23.321] [info] Performing file request: /177-6c446ad5a4779bcb3e95.js, abs path /home/ackbar/.config/Notion/notionAssetCache-v2/23.10.16.6/assets/177-6c446ad5a4779bcb3e95.js
+[2021-12-18 20:34:23.322] [info] Performing file request: /postRender-a054fd6bb1adf9f10fe7.js, abs path /home/ackbar/.config/Notion/notionAssetCache-v2/23.10.16.6/assets/postRender-a054fd6bb1adf9f10fe7.js
+[2021-12-18 20:34:23.609] [info] Performing file request: /analytics-amplitude-981617b84d3bec606641.js, abs path /home/ackbar/.config/Notion/notionAssetCache-v2/23.10.16.6/assets/analytics-amplitude-981617b84d3bec606641.js
+[2021-12-18 20:34:23.610] [info] Performing file request: /analytics-segment-7185b3586932d9409904.js, abs path /home/ackbar/.config/Notion/notionAssetCache-v2/23.10.16.6/assets/analytics-segment-7185b3586932d9409904.js
+[2021-12-18 20:34:24.366] [info] Performing file request: /ajs-destination-6dd326b5dd0e028410b5.js, abs path /home/ackbar/.config/Notion/notionAssetCache-v2/23.10.16.6/assets/ajs-destination-6dd326b5dd0e028410b5.js
+[2021-12-18 20:34:27.084] [info] Checking for app update
+[2021-12-18 20:34:27.544] [info] No app update available
+[2021-12-18 20:35:27.595] [info] Checking for app update
+[2021-12-18 20:35:27.925] [info] No app update available
+[2021-12-18 20:36:27.985] [info] Checking for app update
+[2021-12-18 20:36:28.313] [info] No app update available
+[2021-12-18 20:37:30.502] [info] Checking for app update
+[2021-12-18 20:37:31.021] [info] No app update available
+[2021-12-18 20:38:31.080] [info] Checking for app update
+[2021-12-18 20:38:31.569] [info] No app update available
+[2021-12-18 20:39:31.600] [info] Checking for app update
+[2021-12-18 20:39:31.885] [info] No app update available
+[2021-12-18 20:40:31.931] [info] Checking for app update
+[2021-12-18 20:40:32.418] [info] No app update available
+[2021-12-18 20:41:37.711] [info] Checking for update
+[2021-12-18 20:41:37.927] [info] latestVersion.json path /home/ackbar/.config/Notion/notionAssetCache-v2/latestVersion.json
+[2021-12-18 20:41:37.932] [error] Error: Error: ENOENT: no such file or directory, open '/usr/share/lotion-native/Lotion/resources/app-update.yml'
+[2021-12-18 20:41:37.933] [info] Current version loaded: {"version":"23.10.16.6"}
+[2021-12-18 20:41:37.934] [info] Sync versions: assets.json path /home/ackbar/.config/Notion/notionAssetCache-v2/23.10.16.6/assets.json headers.json path /home/ackbar/.config/Notion/notionAssetCache-v2/23.10.16.6/headers.json
+[2021-12-18 20:41:37.941] [info] Current synced assets.json: 23.10.16.6
+[2021-12-18 20:41:38.356] [info] Sync versions: same version skipping sync
+[2021-12-18 20:41:38.357] [info] Performing file request: /, abs path /home/ackbar/.config/Notion/notionAssetCache-v2/23.10.16.6/assets/index-ko-KR-6f9c3e85253a8d7af157.html
+[2021-12-18 20:41:38.502] [info] Performing file request: /711-17b0a195537095b60ea5.js, abs path /home/ackbar/.config/Notion/notionAssetCache-v2/23.10.16.6/assets/711-17b0a195537095b60ea5.js
+[2021-12-18 20:41:38.503] [info] Performing file request: /app-bbb4170b2d835f469af5.js, abs path /home/ackbar/.config/Notion/notionAssetCache-v2/23.10.16.6/assets/app-bbb4170b2d835f469af5.js
+[2021-12-18 20:41:38.504] [info] Performing file request: /app-21eb0c05ca983c393d67.css, abs path /home/ackbar/.config/Notion/notionAssetCache-v2/23.10.16.6/assets/app-21eb0c05ca983c393d67.css
+[2021-12-18 20:41:38.513] [info] Performing file request: /print.b31f28aa.css, abs path /home/ackbar/.config/Notion/notionAssetCache-v2/23.10.16.6/assets/print.b31f28aa.css
+[2021-12-18 20:41:39.302] [info] Performing file request: /markdown-linkify-it-1b44aab5f3847126306c.js, abs path /home/ackbar/.config/Notion/notionAssetCache-v2/23.10.16.6/assets/markdown-linkify-it-1b44aab5f3847126306c.js
+[2021-12-18 20:41:39.475] [info] Performing file request: /primus-11bd7655d61c6a4f81ab.js, abs path /home/ackbar/.config/Notion/notionAssetCache-v2/23.10.16.6/assets/primus-11bd7655d61c6a4f81ab.js
+[2021-12-18 20:41:41.894] [info] Performing file request: /177-6c446ad5a4779bcb3e95.js, abs path /home/ackbar/.config/Notion/notionAssetCache-v2/23.10.16.6/assets/177-6c446ad5a4779bcb3e95.js
+[2021-12-18 20:41:41.895] [info] Performing file request: /postRender-a054fd6bb1adf9f10fe7.js, abs path /home/ackbar/.config/Notion/notionAssetCache-v2/23.10.16.6/assets/postRender-a054fd6bb1adf9f10fe7.js
+[2021-12-18 20:41:42.021] [info] Performing file request: /analytics-amplitude-981617b84d3bec606641.js, abs path /home/ackbar/.config/Notion/notionAssetCache-v2/23.10.16.6/assets/analytics-amplitude-981617b84d3bec606641.js
+[2021-12-18 20:41:42.030] [info] Performing file request: /analytics-segment-7185b3586932d9409904.js, abs path /home/ackbar/.config/Notion/notionAssetCache-v2/23.10.16.6/assets/analytics-segment-7185b3586932d9409904.js
+[2021-12-18 20:41:42.252] [info] Performing file request: /ajs-destination-6dd326b5dd0e028410b5.js, abs path /home/ackbar/.config/Notion/notionAssetCache-v2/23.10.16.6/assets/ajs-destination-6dd326b5dd0e028410b5.js
+[2021-12-19 17:23:47.226] [info] Checking for update
+[2021-12-19 17:23:47.587] [info] latestVersion.json path /home/ackbar/.config/Notion/notionAssetCache-v2/latestVersion.json
+[2021-12-19 17:23:47.591] [error] Error: Error: ENOENT: no such file or directory, open '/usr/share/lotion-native/Lotion/resources/app-update.yml'
+[2021-12-19 17:23:47.596] [info] Current version loaded: {"version":"23.10.16.6"}
+[2021-12-19 17:23:47.597] [info] Sync versions: assets.json path /home/ackbar/.config/Notion/notionAssetCache-v2/23.10.16.6/assets.json headers.json path /home/ackbar/.config/Notion/notionAssetCache-v2/23.10.16.6/headers.json
+[2021-12-19 17:23:47.618] [info] Current synced assets.json: 23.10.16.6
+[2021-12-19 17:23:48.160] [info] Sync versions: same version skipping sync
+[2021-12-19 17:23:48.161] [info] Performing file request: /, abs path /home/ackbar/.config/Notion/notionAssetCache-v2/23.10.16.6/assets/index-ko-KR-6f9c3e85253a8d7af157.html
+[2021-12-19 17:23:48.292] [info] Performing file request: /711-17b0a195537095b60ea5.js, abs path /home/ackbar/.config/Notion/notionAssetCache-v2/23.10.16.6/assets/711-17b0a195537095b60ea5.js
+[2021-12-19 17:23:48.294] [info] Performing file request: /app-bbb4170b2d835f469af5.js, abs path /home/ackbar/.config/Notion/notionAssetCache-v2/23.10.16.6/assets/app-bbb4170b2d835f469af5.js
+[2021-12-19 17:23:48.299] [info] Performing file request: /app-21eb0c05ca983c393d67.css, abs path /home/ackbar/.config/Notion/notionAssetCache-v2/23.10.16.6/assets/app-21eb0c05ca983c393d67.css
+[2021-12-19 17:23:48.302] [info] Performing file request: /print.b31f28aa.css, abs path /home/ackbar/.config/Notion/notionAssetCache-v2/23.10.16.6/assets/print.b31f28aa.css
+[2021-12-19 17:23:48.996] [info] Performing file request: /markdown-linkify-it-1b44aab5f3847126306c.js, abs path /home/ackbar/.config/Notion/notionAssetCache-v2/23.10.16.6/assets/markdown-linkify-it-1b44aab5f3847126306c.js
+[2021-12-19 17:23:49.170] [info] Performing file request: /primus-11bd7655d61c6a4f81ab.js, abs path /home/ackbar/.config/Notion/notionAssetCache-v2/23.10.16.6/assets/primus-11bd7655d61c6a4f81ab.js
+[2021-12-19 17:23:51.790] [info] Performing file request: /177-6c446ad5a4779bcb3e95.js, abs path /home/ackbar/.config/Notion/notionAssetCache-v2/23.10.16.6/assets/177-6c446ad5a4779bcb3e95.js
+[2021-12-19 17:23:51.791] [info] Performing file request: /postRender-a054fd6bb1adf9f10fe7.js, abs path /home/ackbar/.config/Notion/notionAssetCache-v2/23.10.16.6/assets/postRender-a054fd6bb1adf9f10fe7.js
+[2021-12-19 17:23:51.951] [info] Performing file request: /analytics-amplitude-981617b84d3bec606641.js, abs path /home/ackbar/.config/Notion/notionAssetCache-v2/23.10.16.6/assets/analytics-amplitude-981617b84d3bec606641.js
+[2021-12-19 17:23:51.952] [info] Performing file request: /analytics-segment-7185b3586932d9409904.js, abs path /home/ackbar/.config/Notion/notionAssetCache-v2/23.10.16.6/assets/analytics-segment-7185b3586932d9409904.js
+[2021-12-19 17:23:52.606] [info] Performing file request: /ajs-destination-6dd326b5dd0e028410b5.js, abs path /home/ackbar/.config/Notion/notionAssetCache-v2/23.10.16.6/assets/ajs-destination-6dd326b5dd0e028410b5.js
+[2021-12-19 17:23:57.345] [info] Checking for app update
+[2021-12-19 17:23:57.812] [info] No app update available
+[2021-12-19 17:24:57.862] [info] Checking for app update
+[2021-12-19 17:24:58.185] [info] {
+  "level": "info",
+  "from": "assetCache",
+  "type": "updateAssetsFetch",
+  "data": {
+    "time": 323
+  }
+}
+[2021-12-19 17:24:58.374] [info] No app update available
+[2021-12-19 17:25:58.432] [info] Checking for app update
+[2021-12-19 17:25:58.829] [info] No app update available
+[2021-12-19 17:26:58.888] [info] Checking for app update
+[2021-12-19 17:26:59.188] [info] No app update available
+[2021-12-19 17:27:59.248] [info] Checking for app update
+[2021-12-19 17:27:59.547] [info] No app update available
+[2021-12-19 17:28:59.575] [info] Checking for app update
+[2021-12-19 17:29:00.041] [info] No app update available
+[2021-12-19 17:30:00.048] [info] Checking for app update
+[2021-12-19 17:30:01.057] [info] No app update available
+[2021-12-19 17:31:01.116] [info] Checking for app update
+[2021-12-19 17:31:01.442] [info] No app update available
+[2021-12-19 17:32:01.502] [info] Checking for app update
+[2021-12-19 17:32:01.784] [info] No app update available
+[2021-12-19 17:33:01.844] [info] Checking for app update
+[2021-12-19 17:33:02.329] [info] No app update available
+[2021-12-19 17:34:02.338] [info] Checking for app update
+[2021-12-19 17:34:02.682] [info] No app update available
+[2021-12-19 17:35:02.742] [info] Checking for app update
+[2021-12-19 17:35:03.762] [info] No app update available
+[2021-12-19 17:36:03.771] [info] Checking for app update
+[2021-12-19 17:36:04.107] [info] No app update available
+[2021-12-19 17:37:04.146] [info] Checking for app update
+[2021-12-19 17:37:04.662] [info] No app update available
+[2021-12-19 17:38:04.718] [info] Checking for app update
+[2021-12-19 17:38:06.021] [info] No app update available
+[2021-12-19 17:39:06.082] [info] Checking for app update
+[2021-12-19 17:39:06.398] [info] No app update available
+[2021-12-19 17:40:06.458] [info] Checking for app update
+[2021-12-19 17:40:06.771] [info] {
+  "level": "info",
+  "from": "assetCache",
+  "type": "updateAssetsResponseParse",
+  "data": {
+    "time": 8
+  }
+}
+[2021-12-19 17:40:06.772] [info] No app update available
+[2021-12-19 17:41:06.832] [info] Checking for app update
+[2021-12-19 17:41:07.344] [info] No app update available
+[2021-12-19 17:42:07.404] [info] Checking for app update
+[2021-12-19 17:42:07.912] [info] No app update available
+[2021-12-19 17:43:07.972] [info] Checking for app update
+[2021-12-19 17:43:08.281] [info] No app update available
+[2021-12-19 17:44:08.296] [info] Checking for app update
+[2021-12-19 17:44:08.811] [info] No app update available
+[2021-12-19 17:45:08.867] [info] Checking for app update
+[2021-12-19 17:45:09.196] [info] No app update available
+[2021-12-19 17:46:09.255] [info] Checking for app update
+[2021-12-19 17:46:09.613] [info] No app update available
+[2021-12-19 17:47:09.673] [info] Checking for app update
+[2021-12-19 17:47:09.978] [info] No app update available
+[2021-12-19 17:48:10.239] [info] Checking for app update
+[2021-12-19 17:48:10.593] [info] No app update available
+[2021-12-19 17:49:10.653] [info] Checking for app update
+[2021-12-19 17:49:11.658] [info] No app update available
+[2021-12-19 17:50:11.718] [info] Checking for app update
+[2021-12-19 17:50:12.040] [info] No app update available
+[2021-12-19 17:51:12.101] [info] Checking for app update
+[2021-12-19 17:51:12.608] [info] No app update available
+[2021-12-19 17:52:12.669] [info] Checking for app update
+[2021-12-19 17:52:13.000] [info] No app update available
+[2021-12-19 17:53:13.058] [info] Checking for app update
+[2021-12-19 17:53:13.512] [info] No app update available
+[2021-12-19 17:54:13.536] [info] Checking for app update
+[2021-12-19 17:54:13.826] [info] No app update available
+[2021-12-19 17:55:13.842] [info] Checking for app update
+[2021-12-19 17:55:14.155] [info] No app update available
+[2021-12-19 17:56:14.215] [info] Checking for app update
+[2021-12-19 17:56:15.056] [info] No app update available
+[2021-12-19 17:57:15.115] [info] Checking for app update
+[2021-12-19 17:57:15.618] [info] No app update available
+[2021-12-19 17:58:15.681] [info] Checking for app update
+[2021-12-19 17:58:16.653] [info] No app update available
+[2021-12-19 17:59:16.711] [info] Checking for app update
+[2021-12-19 17:59:17.007] [info] No app update available
+[2021-12-19 18:00:17.068] [info] Checking for app update
+[2021-12-19 18:00:17.579] [info] No app update available
+[2021-12-19 18:01:17.637] [info] Checking for app update
+[2021-12-19 18:01:18.302] [info] No app update available
+[2021-12-19 18:02:18.331] [info] Checking for app update
+[2021-12-19 18:02:18.682] [info] No app update available
+[2021-12-19 18:03:18.741] [info] Checking for app update
+[2021-12-19 18:03:19.065] [info] No app update available
+[2021-12-19 18:04:19.083] [info] Checking for app update
+[2021-12-19 18:04:19.376] [info] No app update available
+[2021-12-19 18:05:19.434] [info] Checking for app update
+[2021-12-19 18:05:19.942] [info] No app update available
+[2021-12-19 18:06:19.962] [info] Checking for app update
+[2021-12-19 18:06:20.458] [info] No app update available
+[2021-12-19 18:07:20.511] [info] Checking for app update
+[2021-12-19 18:07:20.968] [info] No app update available
+[2021-12-19 18:08:21.028] [info] Checking for app update
+[2021-12-19 18:08:21.517] [info] No app update available
+[2021-12-19 18:09:21.578] [info] Checking for app update
+[2021-12-19 18:09:21.869] [info] No app update available
+[2021-12-19 18:10:21.913] [info] Checking for app update
+[2021-12-19 18:10:22.449] [info] No app update available
+[2021-12-19 18:11:22.471] [info] Checking for app update
+[2021-12-19 18:11:22.797] [info] No app update available
+[2021-12-19 18:12:22.851] [info] Checking for app update
+[2021-12-19 18:12:23.177] [info] No app update available
+[2021-12-19 18:13:23.234] [info] Checking for app update
+[2021-12-19 18:13:23.553] [info] No app update available
+[2021-12-19 18:14:23.564] [info] Checking for app update
+[2021-12-19 18:14:23.896] [info] No app update available
+[2021-12-19 18:15:23.941] [info] Checking for app update
+[2021-12-19 18:15:24.254] [info] No app update available
+[2021-12-19 18:16:24.314] [info] Checking for app update
+[2021-12-19 18:16:24.862] [info] No app update available
+[2021-12-19 18:17:24.921] [info] Checking for app update
+[2021-12-19 18:17:25.366] [info] No app update available
+[2021-12-19 18:18:25.425] [info] Checking for app update
+[2021-12-19 18:18:25.901] [info] No app update available
+[2021-12-19 18:19:25.961] [info] Checking for app update
+[2021-12-19 18:19:26.279] [info] No app update available
+[2021-12-19 18:20:26.338] [info] Checking for app update
+[2021-12-19 18:20:26.694] [info] No app update available
+[2021-12-19 18:21:26.741] [info] Checking for app update
+[2021-12-19 18:21:27.064] [info] No app update available
+[2021-12-19 18:22:27.112] [info] Checking for app update
+[2021-12-19 18:22:27.450] [info] No app update available
+[2021-12-19 18:23:27.467] [info] Checking for app update
+[2021-12-19 18:23:27.768] [info] No app update available
+[2021-12-19 18:24:27.804] [info] Checking for app update
+[2021-12-19 18:24:28.358] [info] No app update available
+[2021-12-19 18:25:28.401] [info] Checking for app update
+[2021-12-19 18:25:29.617] [info] No app update available
+[2021-12-19 18:26:29.678] [info] Checking for app update
+[2021-12-19 18:26:30.087] [info] No app update available
+[2021-12-19 18:27:30.148] [info] Checking for app update
+[2021-12-19 18:27:30.438] [info] No app update available
+[2021-12-19 18:28:30.497] [info] Checking for app update
+[2021-12-19 18:28:30.973] [info] No app update available
+[2021-12-19 18:29:31.031] [info] Checking for app update
+[2021-12-19 18:29:31.358] [info] No app update available
+[2021-12-19 18:30:31.382] [info] Checking for app update
+[2021-12-19 18:30:31.706] [info] No app update available
+[2021-12-19 18:31:31.744] [info] Checking for app update
+[2021-12-19 18:31:32.251] [info] No app update available
+[2021-12-19 18:32:32.290] [info] Checking for app update
+[2021-12-19 18:32:32.779] [info] No app update available
+[2021-12-19 18:33:32.838] [info] Checking for app update
+[2021-12-19 18:33:33.330] [info] No app update available
+[2021-12-19 18:34:33.355] [info] Checking for app update
+[2021-12-19 18:34:33.690] [info] No app update available
+[2021-12-19 18:35:33.717] [info] Checking for app update
+[2021-12-19 18:35:34.252] [info] No app update available
+[2021-12-19 18:36:34.272] [info] Checking for app update
+[2021-12-19 18:36:34.773] [info] No app update available
+[2021-12-19 18:37:34.828] [info] Checking for app update
+[2021-12-19 18:37:35.118] [info] No app update available
+[2021-12-19 18:38:35.177] [info] Checking for app update
+[2021-12-19 18:38:35.472] [info] No app update available
+[2021-12-19 18:39:35.528] [info] Checking for app update
+[2021-12-19 18:39:35.901] [info] No app update available
+[2021-12-19 18:40:35.961] [info] Checking for app update
+[2021-12-19 18:40:37.030] [info] No app update available
+[2021-12-19 18:41:37.089] [info] Checking for app update
+[2021-12-19 18:41:37.903] [info] {
+  "level": "info",
+  "from": "assetCache",
+  "type": "updateAssetsFetch",
+  "data": {
+    "time": 813
+  }
+}
+[2021-12-19 18:41:38.076] [info] No app update available
+[2021-12-19 18:42:38.134] [info] Checking for app update
+[2021-12-19 18:42:39.176] [info] No app update available
+[2021-12-19 18:43:39.234] [info] Checking for app update
+[2021-12-19 18:43:40.209] [info] No app update available
+[2021-12-19 18:44:40.248] [info] Checking for app update
+[2021-12-19 18:44:40.749] [info] No app update available
+[2021-12-19 18:45:40.810] [info] Checking for app update
+[2021-12-19 18:45:41.365] [info] No app update available
+[2021-12-19 18:46:41.413] [info] Checking for app update
+[2021-12-19 18:46:42.488] [info] No app update available
+[2021-12-19 18:47:42.534] [info] Checking for app update
+[2021-12-19 18:47:42.957] [info] No app update available
+[2021-12-19 18:48:43.015] [info] Checking for app update
+[2021-12-19 18:48:44.099] [info] No app update available
+[2021-12-19 18:49:44.158] [info] Checking for app update
+[2021-12-19 18:49:44.536] [info] No app update available
+[2021-12-19 18:50:44.545] [info] Checking for app update
+[2021-12-19 18:50:44.957] [info] No app update available
+[2021-12-19 18:51:45.018] [info] Checking for app update
+[2021-12-19 18:51:45.322] [info] No app update available
+[2021-12-20 15:39:12.213] [info] Checking for update
+[2021-12-20 15:39:12.569] [info] latestVersion.json path /home/ackbar/.config/Notion/notionAssetCache-v2/latestVersion.json
+[2021-12-20 15:39:12.572] [error] Error: Error: ENOENT: no such file or directory, open '/usr/share/lotion-native/Lotion/resources/app-update.yml'
+[2021-12-20 15:39:12.575] [info] Current version loaded: {"version":"23.10.16.6"}
+[2021-12-20 15:39:12.575] [info] Sync versions: assets.json path /home/ackbar/.config/Notion/notionAssetCache-v2/23.10.16.6/assets.json headers.json path /home/ackbar/.config/Notion/notionAssetCache-v2/23.10.16.6/headers.json
+[2021-12-20 15:39:12.587] [info] Current synced assets.json: 23.10.16.6
+[2021-12-20 15:39:13.080] [info] Sync versions: same version skipping sync
+[2021-12-20 15:39:13.081] [info] Performing file request: /, abs path /home/ackbar/.config/Notion/notionAssetCache-v2/23.10.16.6/assets/index-ko-KR-6f9c3e85253a8d7af157.html
+[2021-12-20 15:39:13.239] [info] Performing file request: /711-17b0a195537095b60ea5.js, abs path /home/ackbar/.config/Notion/notionAssetCache-v2/23.10.16.6/assets/711-17b0a195537095b60ea5.js
+[2021-12-20 15:39:13.239] [info] Performing file request: /app-bbb4170b2d835f469af5.js, abs path /home/ackbar/.config/Notion/notionAssetCache-v2/23.10.16.6/assets/app-bbb4170b2d835f469af5.js
+[2021-12-20 15:39:13.241] [info] Performing file request: /app-21eb0c05ca983c393d67.css, abs path /home/ackbar/.config/Notion/notionAssetCache-v2/23.10.16.6/assets/app-21eb0c05ca983c393d67.css
+[2021-12-20 15:39:13.244] [info] Performing file request: /print.b31f28aa.css, abs path /home/ackbar/.config/Notion/notionAssetCache-v2/23.10.16.6/assets/print.b31f28aa.css
+[2021-12-20 15:39:13.830] [info] Performing file request: /markdown-linkify-it-1b44aab5f3847126306c.js, abs path /home/ackbar/.config/Notion/notionAssetCache-v2/23.10.16.6/assets/markdown-linkify-it-1b44aab5f3847126306c.js
+[2021-12-20 15:39:14.020] [info] Performing file request: /primus-11bd7655d61c6a4f81ab.js, abs path /home/ackbar/.config/Notion/notionAssetCache-v2/23.10.16.6/assets/primus-11bd7655d61c6a4f81ab.js
+[2021-12-20 15:39:16.264] [info] Performing file request: /177-6c446ad5a4779bcb3e95.js, abs path /home/ackbar/.config/Notion/notionAssetCache-v2/23.10.16.6/assets/177-6c446ad5a4779bcb3e95.js
+[2021-12-20 15:39:16.265] [info] Performing file request: /postRender-a054fd6bb1adf9f10fe7.js, abs path /home/ackbar/.config/Notion/notionAssetCache-v2/23.10.16.6/assets/postRender-a054fd6bb1adf9f10fe7.js
+[2021-12-20 15:39:16.407] [info] Performing file request: /analytics-amplitude-981617b84d3bec606641.js, abs path /home/ackbar/.config/Notion/notionAssetCache-v2/23.10.16.6/assets/analytics-amplitude-981617b84d3bec606641.js
+[2021-12-20 15:39:16.411] [info] Performing file request: /analytics-segment-7185b3586932d9409904.js, abs path /home/ackbar/.config/Notion/notionAssetCache-v2/23.10.16.6/assets/analytics-segment-7185b3586932d9409904.js
+[2021-12-20 15:39:16.760] [info] Performing file request: /ajs-destination-6dd326b5dd0e028410b5.js, abs path /home/ackbar/.config/Notion/notionAssetCache-v2/23.10.16.6/assets/ajs-destination-6dd326b5dd0e028410b5.js
+[2021-12-20 15:39:22.332] [info] Checking for app update
+[2021-12-20 15:39:22.672] [info] No app update available
+[2021-12-20 15:40:22.682] [info] Checking for app update
+[2021-12-20 15:40:23.019] [info] No app update available
+[2021-12-22 08:19:12.191] [info] Checking for update
+[2021-12-22 08:19:12.583] [info] latestVersion.json path /home/ackbar/.config/Notion/notionAssetCache-v2/latestVersion.json
+[2021-12-22 08:19:12.587] [error] Error: Error: ENOENT: no such file or directory, open '/usr/share/lotion-native/Lotion/resources/app-update.yml'
+[2021-12-22 08:19:12.593] [info] Current version loaded: {"version":"23.10.16.6"}
+[2021-12-22 08:19:12.594] [info] Sync versions: assets.json path /home/ackbar/.config/Notion/notionAssetCache-v2/23.10.16.6/assets.json headers.json path /home/ackbar/.config/Notion/notionAssetCache-v2/23.10.16.6/headers.json
+[2021-12-22 08:19:12.618] [info] Current synced assets.json: 23.10.16.6
+[2021-12-22 08:19:13.303] [info] Sync versions: same version skipping sync
+[2021-12-22 08:19:13.303] [info] Performing file request: /, abs path /home/ackbar/.config/Notion/notionAssetCache-v2/23.10.16.6/assets/index-ko-KR-6f9c3e85253a8d7af157.html
+[2021-12-22 08:19:13.520] [info] Performing file request: /711-17b0a195537095b60ea5.js, abs path /home/ackbar/.config/Notion/notionAssetCache-v2/23.10.16.6/assets/711-17b0a195537095b60ea5.js
+[2021-12-22 08:19:13.521] [info] Performing file request: /app-bbb4170b2d835f469af5.js, abs path /home/ackbar/.config/Notion/notionAssetCache-v2/23.10.16.6/assets/app-bbb4170b2d835f469af5.js
+[2021-12-22 08:19:13.523] [info] Performing file request: /app-21eb0c05ca983c393d67.css, abs path /home/ackbar/.config/Notion/notionAssetCache-v2/23.10.16.6/assets/app-21eb0c05ca983c393d67.css
+[2021-12-22 08:19:13.524] [info] Performing file request: /print.b31f28aa.css, abs path /home/ackbar/.config/Notion/notionAssetCache-v2/23.10.16.6/assets/print.b31f28aa.css
+[2021-12-22 08:19:14.426] [info] Performing file request: /markdown-linkify-it-1b44aab5f3847126306c.js, abs path /home/ackbar/.config/Notion/notionAssetCache-v2/23.10.16.6/assets/markdown-linkify-it-1b44aab5f3847126306c.js
+[2021-12-22 08:19:14.676] [info] Performing file request: /primus-11bd7655d61c6a4f81ab.js, abs path /home/ackbar/.config/Notion/notionAssetCache-v2/23.10.16.6/assets/primus-11bd7655d61c6a4f81ab.js
+[2021-12-22 08:19:17.486] [info] Performing file request: /177-6c446ad5a4779bcb3e95.js, abs path /home/ackbar/.config/Notion/notionAssetCache-v2/23.10.16.6/assets/177-6c446ad5a4779bcb3e95.js
+[2021-12-22 08:19:17.487] [info] Performing file request: /postRender-a054fd6bb1adf9f10fe7.js, abs path /home/ackbar/.config/Notion/notionAssetCache-v2/23.10.16.6/assets/postRender-a054fd6bb1adf9f10fe7.js
+[2021-12-22 08:19:17.592] [info] Performing file request: /analytics-amplitude-981617b84d3bec606641.js, abs path /home/ackbar/.config/Notion/notionAssetCache-v2/23.10.16.6/assets/analytics-amplitude-981617b84d3bec606641.js
+[2021-12-22 08:19:17.593] [info] Performing file request: /analytics-segment-7185b3586932d9409904.js, abs path /home/ackbar/.config/Notion/notionAssetCache-v2/23.10.16.6/assets/analytics-segment-7185b3586932d9409904.js
+[2021-12-22 08:19:18.184] [info] Performing file request: /ajs-destination-6dd326b5dd0e028410b5.js, abs path /home/ackbar/.config/Notion/notionAssetCache-v2/23.10.16.6/assets/ajs-destination-6dd326b5dd0e028410b5.js
+[2021-12-22 08:19:22.340] [info] Checking for app update
+[2021-12-22 08:19:23.459] [info] App update available 23.10.16.8
+[2021-12-22 08:19:25.955] [info] App update download complete 23.10.16.8
+[2021-12-22 08:19:25.955] [info] Installing app update 23.10.16.8
+[2021-12-22 08:20:27.468] [info] Checking for app update
+[2021-12-22 08:20:27.985] [info] No app update available
+[2021-12-22 08:21:28.047] [info] Checking for app update
+[2021-12-22 08:21:29.107] [info] No app update available
+[2021-12-22 08:22:29.168] [info] Checking for app update
+[2021-12-22 08:22:29.520] [info] No app update available
+[2021-12-22 08:23:29.585] [info] Checking for app update
+[2021-12-22 08:23:30.113] [info] No app update available
+[2021-12-22 08:24:30.184] [info] Checking for app update
+[2021-12-22 08:24:30.496] [info] No app update available
+[2021-12-22 08:25:30.572] [info] Checking for app update
+[2021-12-22 08:25:30.966] [info] {
+  "level": "info",
+  "from": "assetCache",
+  "type": "updateAssetsResponseParse",
+  "data": {
+    "time": 2
+  }
+}
+[2021-12-22 08:25:30.967] [info] No app update available
+[2021-12-22 08:26:31.029] [info] Checking for app update
+[2021-12-22 08:26:31.374] [info] {
+  "level": "info",
+  "from": "assetCache",
+  "type": "updateAssetsFetch",
+  "data": {
+    "time": 345
+  }
+}
+[2021-12-22 08:26:31.384] [info] No app update available
+[2021-12-22 08:27:31.444] [info] Checking for app update
+[2021-12-22 08:27:36.189] [info] No app update available
+[2021-12-22 08:28:36.247] [info] Checking for app update
+[2021-12-22 08:28:36.740] [info] No app update available
+[2021-12-22 08:29:36.905] [info] Checking for app update
+[2021-12-22 08:29:37.210] [info] No app update available
+[2021-12-22 08:30:37.276] [info] Checking for app update
+[2021-12-22 08:30:37.585] [info] No app update available
+[2021-12-22 08:31:37.593] [info] Checking for app update
+[2021-12-22 08:31:37.954] [info] No app update available
+[2021-12-22 08:32:38.008] [info] Checking for app update
+[2021-12-22 08:32:38.452] [info] No app update available
+[2021-12-22 08:33:38.461] [info] Checking for app update
+[2021-12-22 08:33:38.946] [info] No app update available
+[2021-12-22 08:34:39.007] [info] Checking for app update
+[2021-12-22 08:34:39.384] [info] No app update available
+[2021-12-22 08:35:39.457] [info] Checking for app update
+[2021-12-22 08:35:39.985] [info] No app update available
+[2021-12-22 08:36:40.055] [info] Checking for app update
+[2021-12-22 08:36:40.383] [info] No app update available
+[2021-12-22 08:37:40.440] [info] Checking for app update
+[2021-12-22 08:37:40.769] [info] No app update available
+[2021-12-22 08:38:40.829] [info] Checking for app update
+[2021-12-22 08:38:41.346] [info] No app update available
+[2021-12-22 08:39:41.378] [info] Checking for app update
+[2021-12-22 08:39:41.676] [info] No app update available
+[2021-12-22 08:40:41.737] [info] Checking for app update
+[2021-12-22 08:40:42.190] [info] No app update available
+[2021-12-22 08:41:42.244] [info] Checking for app update
+[2021-12-22 08:41:42.765] [info] No app update available
+[2021-12-22 08:42:42.814] [info] Checking for app update
+[2021-12-22 08:42:43.286] [info] No app update available
+[2021-12-22 08:43:43.347] [info] Checking for app update
+[2021-12-22 08:43:43.807] [info] No app update available
+[2021-12-22 08:44:43.869] [info] Checking for app update
+[2021-12-22 08:44:44.394] [info] No app update available
+[2021-12-22 08:45:44.446] [info] Checking for app update
+[2021-12-22 08:45:44.766] [info] No app update available
+[2021-12-22 08:46:44.846] [info] Checking for app update
+[2021-12-22 08:46:45.387] [info] No app update available
+[2021-12-22 08:47:45.408] [info] Checking for app update
+[2021-12-22 08:47:45.758] [info] No app update available
+[2021-12-22 08:48:45.817] [info] Checking for app update
+[2021-12-22 08:48:46.274] [info] No app update available
+[2021-12-22 08:49:46.368] [info] Checking for app update
+[2021-12-22 08:49:47.400] [info] No app update available
+[2021-12-22 08:50:47.467] [info] Checking for app update
+[2021-12-22 08:50:47.946] [info] No app update available
+[2021-12-22 08:51:48.005] [info] Checking for app update
+[2021-12-22 08:51:48.539] [info] No app update available
+[2021-12-22 08:52:48.587] [info] Checking for app update
+[2021-12-22 08:52:48.876] [info] No app update available
+[2021-12-22 08:53:48.936] [info] Checking for app update
+[2021-12-22 08:53:49.250] [info] No app update available
+[2021-12-22 08:54:49.274] [info] Checking for app update
+[2021-12-22 08:54:49.591] [info] No app update available
+[2021-12-22 08:55:49.642] [info] Checking for app update
+[2021-12-22 08:55:49.999] [info] No app update available
+[2021-12-22 08:56:50.055] [info] Checking for app update
+[2021-12-22 08:56:50.398] [info] No app update available
+[2021-12-22 08:57:50.452] [info] Checking for app update
+[2021-12-22 08:57:51.501] [info] No app update available
+[2021-12-22 08:58:51.566] [info] Checking for app update
+[2021-12-22 08:58:51.864] [info] No app update available
+[2021-12-22 08:59:51.977] [info] Checking for app update
+[2021-12-22 08:59:52.291] [info] No app update available
+[2021-12-22 09:00:52.350] [info] Checking for app update
+[2021-12-22 09:00:52.685] [info] No app update available
+[2021-12-22 09:01:52.744] [info] Checking for app update
+[2021-12-22 09:01:53.115] [info] No app update available
+[2021-12-22 09:02:53.184] [info] Checking for app update
+[2021-12-22 09:02:53.672] [info] No app update available
+[2021-12-22 09:03:53.740] [info] Checking for app update
+[2021-12-22 09:03:54.183] [info] No app update available
+[2021-12-22 09:04:54.222] [info] Checking for app update
+[2021-12-22 09:04:54.745] [info] No app update available
+[2021-12-22 09:05:54.803] [info] Checking for app update
+[2021-12-22 09:05:55.092] [info] No app update available
+[2021-12-22 09:06:55.154] [info] Checking for app update
+[2021-12-22 09:06:55.665] [info] No app update available
+[2021-12-22 09:07:55.756] [info] Checking for app update
+[2021-12-22 09:07:56.257] [info] No app update available
+[2021-12-22 09:08:56.322] [info] Checking for app update
+[2021-12-22 09:08:56.615] [info] No app update available
+[2021-12-22 09:09:56.657] [info] Checking for app update
+[2021-12-22 09:09:57.122] [info] No app update available
+[2021-12-22 09:10:57.184] [info] Checking for app update
+[2021-12-22 09:10:57.475] [info] No app update available
+[2021-12-22 09:11:57.533] [info] Checking for app update
+[2021-12-22 09:11:58.083] [info] No app update available
+[2021-12-22 09:12:58.126] [info] Checking for app update
+[2021-12-22 09:12:58.416] [info] No app update available
+[2021-12-22 09:13:58.481] [info] Checking for app update
+[2021-12-22 09:13:58.769] [info] No app update available
+[2021-12-22 09:14:58.851] [info] Checking for app update
+[2021-12-22 09:14:59.908] [info] No app update available
+[2021-12-22 09:15:59.964] [info] Checking for app update
+[2021-12-22 09:16:00.473] [info] No app update available
+[2021-12-22 09:17:00.530] [info] Checking for app update
+[2021-12-22 09:17:01.625] [info] No app update available
+[2021-12-22 09:18:01.687] [info] Checking for app update
+[2021-12-22 09:18:02.757] [info] No app update available
+[2021-12-22 09:19:02.814] [info] Checking for app update
+[2021-12-22 09:19:03.879] [info] No app update available
+[2021-12-22 09:20:03.928] [info] Checking for app update
+[2021-12-22 09:20:04.505] [info] No app update available
+[2021-12-22 09:21:04.566] [info] Checking for app update
+[2021-12-22 09:21:04.849] [info] No app update available
+[2021-12-22 09:22:04.908] [info] Checking for app update
+[2021-12-22 09:22:05.241] [info] No app update available
+[2021-12-22 09:23:05.286] [info] Checking for app update
+[2021-12-22 09:23:05.775] [info] No app update available
+[2021-12-22 09:24:05.798] [info] Checking for app update
+[2021-12-22 09:24:06.137] [info] No app update available
+[2021-12-22 09:25:06.197] [info] Checking for app update
+[2021-12-22 09:25:10.175] [info] No app update available
+[2021-12-22 09:26:10.235] [info] Checking for app update
+[2021-12-22 09:26:10.666] [info] No app update available
+[2021-12-22 09:27:10.741] [info] Checking for app update
+[2021-12-22 09:27:11.243] [info] No app update available
+[2021-12-22 09:28:11.301] [info] Checking for app update
+[2021-12-22 09:28:11.605] [info] No app update available
+[2021-12-22 09:29:11.680] [info] Checking for app update
+[2021-12-22 09:29:12.284] [info] No app update available
+[2021-12-22 09:30:12.324] [info] Checking for app update
+[2021-12-22 09:30:12.810] [info] No app update available
+[2021-12-22 09:31:12.851] [info] Checking for app update
+[2021-12-22 09:31:13.475] [info] No app update available
+[2021-12-22 09:32:13.534] [info] Checking for app update
+[2021-12-22 09:32:14.043] [info] No app update available
+[2021-12-22 09:33:14.112] [info] Checking for app update
+[2021-12-22 09:33:14.553] [info] No app update available
+[2021-12-22 09:34:14.594] [info] Checking for app update
+[2021-12-22 09:34:15.131] [info] No app update available
+[2021-12-22 09:35:15.190] [info] Checking for app update
+[2021-12-22 09:35:15.481] [info] No app update available
+[2021-12-22 09:36:15.498] [info] Checking for app update
+[2021-12-22 09:36:15.805] [info] No app update available
+[2021-12-22 09:37:15.870] [info] Checking for app update
+[2021-12-22 09:37:16.486] [info] No app update available
+[2021-12-22 09:38:16.548] [info] Checking for app update
+[2021-12-22 09:38:16.994] [info] No app update available
+[2021-12-22 09:39:17.037] [info] Checking for app update
+[2021-12-22 09:39:17.330] [info] {
+  "level": "info",
+  "from": "assetCache",
+  "type": "updateAssetsFetch",
+  "data": {
+    "time": 292
+  }
+}
+[2021-12-22 09:39:17.525] [info] No app update available
+[2021-12-22 09:40:17.583] [info] Checking for app update
+[2021-12-22 09:40:17.872] [info] No app update available
+[2021-12-22 09:41:17.901] [info] Checking for app update
+[2021-12-22 09:41:18.206] [info] No app update available
+[2021-12-22 09:42:18.260] [info] Checking for app update
+[2021-12-22 09:42:18.575] [info] No app update available
+[2021-12-22 09:43:18.645] [info] Checking for app update
+[2021-12-22 09:43:18.950] [info] No app update available
+[2021-12-22 09:44:19.028] [info] Checking for app update
+[2021-12-22 09:44:19.408] [info] {
+  "level": "info",
+  "from": "assetCache",
+  "type": "updateAssetsResponseParse",
+  "data": {
+    "time": 8
+  }
+}
+[2021-12-22 09:44:19.409] [info] No app update available
+[2021-12-22 09:45:19.470] [info] Checking for app update
+[2021-12-22 09:45:19.792] [info] No app update available
+[2021-12-22 09:46:19.856] [info] Checking for app update
+[2021-12-22 09:46:20.324] [info] No app update available
+[2021-12-22 09:47:20.381] [info] Checking for app update
+[2021-12-22 09:47:21.379] [info] No app update available
+[2021-12-22 09:48:21.442] [info] Checking for app update
+[2021-12-22 09:48:21.905] [info] No app update available
+[2021-12-22 09:49:21.913] [info] Checking for app update
+[2021-12-22 09:49:22.221] [info] No app update available
+[2021-12-22 09:50:22.269] [info] Checking for app update
+[2021-12-22 09:50:22.758] [info] No app update available
+[2021-12-22 09:51:22.821] [info] Checking for app update
+[2021-12-22 09:51:23.863] [info] No app update available
+[2021-12-22 09:52:23.925] [info] Checking for app update
+[2021-12-22 09:52:24.530] [info] No app update available
+[2021-12-22 09:53:24.596] [info] Checking for app update
+[2021-12-22 09:53:24.904] [info] No app update available
+[2021-12-22 09:54:24.963] [info] Checking for app update
+[2021-12-22 09:54:25.440] [info] No app update available
+[2021-12-22 09:55:25.500] [info] Checking for app update
+[2021-12-22 09:55:25.780] [info] No app update available
+[2021-12-22 09:56:25.847] [info] Checking for app update
+[2021-12-22 09:56:26.322] [info] No app update available
+[2021-12-22 09:57:26.381] [info] Checking for app update
+[2021-12-22 09:57:27.496] [info] No app update available
+[2021-12-22 09:58:27.549] [info] Checking for app update
+[2021-12-22 09:58:27.838] [info] No app update available
+[2021-12-22 09:59:27.855] [info] Checking for app update
+[2021-12-22 09:59:28.302] [info] No app update available
+[2021-12-22 10:00:28.362] [info] Checking for app update
+[2021-12-22 10:00:28.844] [info] No app update available
+[2021-12-22 10:01:28.929] [info] Checking for app update
+[2021-12-22 10:01:29.257] [info] {
+  "level": "info",
+  "from": "assetCache",
+  "type": "updateAssetsResponseParse",
+  "data": {
+    "time": 10
+  }
+}
+[2021-12-22 10:01:29.257] [info] No app update available
+[2021-12-22 10:02:29.320] [info] Checking for app update
+[2021-12-22 10:02:29.634] [info] No app update available
+[2021-12-22 10:03:29.708] [info] Checking for app update
+[2021-12-22 10:03:29.997] [info] No app update available
+[2021-12-22 10:04:30.058] [info] Checking for app update
+[2021-12-22 10:04:30.344] [info] No app update available
+[2021-12-22 10:05:30.403] [info] Checking for app update
+[2021-12-22 10:05:30.693] [info] No app update available
+[2021-12-22 10:06:30.748] [info] Checking for app update
+[2021-12-22 10:06:31.284] [info] No app update available
+[2021-12-22 10:07:31.352] [info] Checking for app update
+[2021-12-22 10:07:31.830] [info] No app update available
+[2021-12-22 10:08:31.888] [info] Checking for app update
+[2021-12-22 10:08:32.187] [info] No app update available
+[2021-12-22 10:09:32.271] [info] Checking for app update
+[2021-12-22 10:09:32.753] [info] No app update available
+[2021-12-22 10:10:32.817] [info] Checking for app update
+[2021-12-22 10:10:33.309] [info] No app update available
+[2021-12-22 10:11:33.334] [info] Checking for app update
+[2021-12-22 10:11:33.662] [info] No app update available
+[2021-12-22 10:12:33.723] [info] Checking for app update
+[2021-12-22 10:12:34.033] [info] No app update available
+[2021-12-22 10:13:34.094] [info] Checking for app update
+[2021-12-22 10:13:34.579] [info] No app update available
+[2021-12-22 10:14:34.645] [info] Checking for app update
+[2021-12-22 10:14:34.961] [info] No app update available
+[2021-12-22 10:15:35.078] [info] Checking for app update
+[2021-12-22 10:15:35.368] [info] No app update available
+[2021-12-22 10:16:35.411] [info] Checking for app update
+[2021-12-22 10:16:36.567] [info] No app update available
+[2021-12-22 10:17:36.628] [info] Checking for app update
+[2021-12-22 10:17:37.121] [info] No app update available
+[2021-12-22 10:18:37.179] [info] Checking for app update
+[2021-12-22 10:18:37.479] [info] No app update available
+[2021-12-22 10:19:37.512] [info] Checking for app update
+[2021-12-22 10:19:37.964] [info] No app update available
+[2021-12-22 10:20:38.025] [info] Checking for app update
+[2021-12-22 10:20:38.320] [info] No app update available
+[2021-12-22 10:21:38.379] [info] Checking for app update
+[2021-12-22 10:21:38.721] [info] No app update available
+[2021-12-22 10:22:38.780] [info] Checking for app update
+[2021-12-22 10:22:39.258] [info] No app update available
+[2021-12-22 10:23:39.325] [info] Checking for app update
+[2021-12-22 10:23:39.782] [info] No app update available
+[2021-12-22 10:24:39.794] [info] Checking for app update
+[2021-12-22 10:24:40.932] [info] No app update available
+[2021-12-22 11:25:01.645] [info] Checking for update
+[2021-12-22 11:25:01.848] [info] latestVersion.json path /home/ackbar/.config/Notion/notionAssetCache-v2/latestVersion.json
+[2021-12-22 11:25:01.850] [error] Error: Error: ENOENT: no such file or directory, open '/usr/share/lotion-native/Lotion/resources/app-update.yml'
+[2021-12-22 11:25:01.852] [info] Current version loaded: {"version":"23.10.16.8"}
+[2021-12-22 11:25:01.852] [info] Sync versions: assets.json path /home/ackbar/.config/Notion/notionAssetCache-v2/23.10.16.8/assets.json headers.json path /home/ackbar/.config/Notion/notionAssetCache-v2/23.10.16.8/headers.json
+[2021-12-22 11:25:01.863] [info] Current synced assets.json: 23.10.16.8
+[2021-12-22 11:25:02.298] [info] Sync versions: same version skipping sync
+[2021-12-22 11:25:02.298] [info] Performing file request: /, abs path /home/ackbar/.config/Notion/notionAssetCache-v2/23.10.16.8/assets/index-ko-KR-c16d9ab3be8ea01439ff.html
+[2021-12-22 11:25:02.476] [info] Performing file request: /711-17b0a195537095b60ea5.js, abs path /home/ackbar/.config/Notion/notionAssetCache-v2/23.10.16.8/assets/711-17b0a195537095b60ea5.js
+[2021-12-22 11:25:02.479] [info] Performing file request: /app-ccd42d94539903268587.js, abs path /home/ackbar/.config/Notion/notionAssetCache-v2/23.10.16.8/assets/app-ccd42d94539903268587.js
+[2021-12-22 11:25:02.480] [info] Performing file request: /app-21eb0c05ca983c393d67.css, abs path /home/ackbar/.config/Notion/notionAssetCache-v2/23.10.16.8/assets/app-21eb0c05ca983c393d67.css
+[2021-12-22 11:25:02.481] [info] Performing file request: /print.b31f28aa.css, abs path /home/ackbar/.config/Notion/notionAssetCache-v2/23.10.16.8/assets/print.b31f28aa.css
+[2021-12-22 11:25:03.146] [info] Performing file request: /markdown-linkify-it-1b44aab5f3847126306c.js, abs path /home/ackbar/.config/Notion/notionAssetCache-v2/23.10.16.8/assets/markdown-linkify-it-1b44aab5f3847126306c.js
+[2021-12-22 11:25:03.300] [info] Performing file request: /primus-11bd7655d61c6a4f81ab.js, abs path /home/ackbar/.config/Notion/notionAssetCache-v2/23.10.16.8/assets/primus-11bd7655d61c6a4f81ab.js
+[2021-12-22 11:25:05.679] [info] Performing file request: /analytics-amplitude-981617b84d3bec606641.js, abs path /home/ackbar/.config/Notion/notionAssetCache-v2/23.10.16.8/assets/analytics-amplitude-981617b84d3bec606641.js
+[2021-12-22 11:25:05.679] [info] Performing file request: /analytics-segment-57e09e890c48283ff035.js, abs path /home/ackbar/.config/Notion/notionAssetCache-v2/23.10.16.8/assets/analytics-segment-57e09e890c48283ff035.js
+[2021-12-22 11:25:05.706] [info] Performing file request: /177-2b2c49d4bc58690ad39c.js, abs path /home/ackbar/.config/Notion/notionAssetCache-v2/23.10.16.8/assets/177-2b2c49d4bc58690ad39c.js
+[2021-12-22 11:25:05.707] [info] Performing file request: /postRender-427d48d47871597b8d9f.js, abs path /home/ackbar/.config/Notion/notionAssetCache-v2/23.10.16.8/assets/postRender-427d48d47871597b8d9f.js
+[2021-12-22 11:25:06.287] [info] Performing file request: /ajs-destination-6dd326b5dd0e028410b5.js, abs path /home/ackbar/.config/Notion/notionAssetCache-v2/23.10.16.8/assets/ajs-destination-6dd326b5dd0e028410b5.js
+[2021-12-22 11:25:11.702] [info] Checking for app update
+[2021-12-22 11:25:12.855] [info] No app update available
+[2021-12-22 11:26:12.913] [info] Checking for app update
+[2021-12-22 11:26:13.235] [info] No app update available
+[2021-12-22 11:27:13.296] [info] Checking for app update
+[2021-12-22 11:27:14.335] [info] No app update available
+[2021-12-22 11:28:14.396] [info] Checking for app update
+[2021-12-22 11:28:14.714] [info] No app update available
+[2021-12-22 11:29:14.775] [info] Checking for app update
+[2021-12-22 11:29:15.136] [info] No app update available
+[2021-12-22 11:30:15.195] [info] Checking for app update
+[2021-12-22 11:30:15.492] [info] No app update available
+[2021-12-22 11:31:15.552] [info] Checking for app update
+[2021-12-22 11:31:15.838] [info] No app update available
+[2021-12-22 11:32:15.901] [info] Checking for app update
+[2021-12-22 11:32:16.231] [info] No app update available
+[2021-12-22 11:33:16.289] [info] Checking for app update
+[2021-12-22 11:33:16.602] [info] No app update available
+[2021-12-22 11:34:16.663] [info] Checking for app update
+[2021-12-22 11:34:17.122] [info] No app update available
+[2021-12-22 11:35:17.136] [info] Checking for app update
+[2021-12-22 11:35:17.463] [info] No app update available
+[2021-12-22 11:36:17.522] [info] Checking for app update
+[2021-12-22 11:36:17.831] [info] No app update available
+[2021-12-22 11:37:17.891] [info] Checking for app update
+[2021-12-22 11:37:18.238] [info] No app update available
+[2021-12-22 11:38:18.274] [info] Checking for app update
+[2021-12-22 11:38:18.567] [info] No app update available
+[2021-12-22 11:39:18.632] [info] Checking for app update
+[2021-12-22 11:39:18.924] [info] No app update available
+[2021-12-22 11:40:18.983] [info] Checking for app update
+[2021-12-22 11:40:19.302] [info] No app update available
+[2021-12-22 11:41:19.368] [info] Checking for app update
+[2021-12-22 11:41:19.898] [info] No app update available
+[2021-12-22 11:42:19.939] [info] Checking for app update
+[2021-12-22 11:42:20.282] [info] No app update available
+[2021-12-22 11:43:20.319] [info] Checking for app update
+[2021-12-22 11:43:20.810] [info] No app update available
+[2021-12-22 11:44:20.873] [info] Checking for app update
+[2021-12-22 11:44:21.942] [info] No app update available
+[2021-12-22 11:45:21.945] [info] Checking for app update
+[2021-12-22 11:45:22.475] [info] No app update available
+[2021-12-22 11:46:22.535] [info] Checking for app update
+[2021-12-22 11:46:22.877] [info] No app update available
+[2021-12-22 11:47:22.936] [info] Checking for app update
+[2021-12-22 11:47:23.268] [info] No app update available
+[2021-12-22 11:48:23.316] [info] Checking for app update
+[2021-12-22 11:48:23.631] [info] No app update available
+[2021-12-22 11:49:23.689] [info] Checking for app update
+[2021-12-22 11:49:24.182] [info] No app update available
+[2021-12-22 11:50:24.243] [info] Checking for app update
+[2021-12-22 11:50:24.738] [info] No app update available
+[2021-12-22 11:51:24.803] [info] Checking for app update
+[2021-12-22 11:51:25.137] [info] No app update available
+[2021-12-22 11:52:25.201] [info] Checking for app update
+[2021-12-22 11:52:25.552] [info] No app update available
+[2021-12-22 11:53:25.612] [info] Checking for app update
+[2021-12-22 11:53:26.411] [info] No app update available
+[2021-12-22 11:54:26.470] [info] Checking for app update
+[2021-12-22 11:54:26.784] [info] No app update available
+[2021-12-22 11:55:26.809] [info] Checking for app update
+[2021-12-22 11:55:27.550] [info] No app update available
+[2021-12-22 11:56:27.610] [info] Checking for app update
+[2021-12-22 11:56:27.939] [info] No app update available
+[2021-12-22 11:57:27.949] [info] Checking for app update
+[2021-12-22 11:57:28.459] [info] No app update available
+[2021-12-22 11:58:28.529] [info] Checking for app update
+[2021-12-22 11:58:28.833] [info] No app update available
+[2021-12-22 11:59:28.882] [info] Checking for app update
+[2021-12-22 11:59:29.190] [info] No app update available
+[2021-12-22 12:00:29.221] [info] Checking for app update
+[2021-12-22 12:00:29.670] [info] No app update available
+[2021-12-22 12:01:29.729] [info] Checking for app update
+[2021-12-22 12:01:30.264] [info] No app update available
+[2021-12-22 12:02:30.326] [info] Checking for app update
+[2021-12-22 12:02:30.844] [info] No app update available
+[2021-12-22 12:03:30.889] [info] Checking for app update
+[2021-12-22 12:03:31.183] [info] {
+  "level": "info",
+  "from": "assetCache",
+  "type": "updateAssetsResponseParse",
+  "data": {
+    "time": 8
+  }
+}
+[2021-12-22 12:03:31.184] [info] No app update available
+[2021-12-22 12:04:31.253] [info] Checking for app update
+[2021-12-22 12:04:31.563] [info] No app update available
+[2021-12-22 12:05:31.580] [info] Checking for app update
+[2021-12-22 12:05:31.890] [info] No app update available
+[2021-12-22 12:06:31.949] [info] Checking for app update
+[2021-12-22 12:06:32.291] [info] No app update available
+[2021-12-22 12:07:32.351] [info] Checking for app update
+[2021-12-22 12:07:32.668] [info] No app update available
+[2021-12-22 12:08:32.727] [info] Checking for app update
+[2021-12-22 12:08:33.212] [info] No app update available
+[2021-12-22 12:09:33.254] [info] Checking for app update
+[2021-12-22 12:09:33.728] [info] No app update available
+[2021-12-22 12:10:33.788] [info] Checking for app update
+[2021-12-22 12:10:34.276] [info] No app update available
+[2021-12-22 12:11:34.332] [info] Checking for app update
+[2021-12-22 12:11:34.669] [info] No app update available
+[2021-12-22 12:12:34.721] [info] Checking for app update
+[2021-12-22 12:12:35.045] [info] No app update available
+[2021-12-22 12:13:35.105] [info] Checking for app update
+[2021-12-22 12:13:35.435] [info] No app update available
+[2021-12-22 12:14:35.498] [info] Checking for app update
+[2021-12-22 12:14:35.966] [info] No app update available
+[2021-12-22 12:15:36.000] [info] Checking for app update
+[2021-12-22 12:15:36.488] [info] No app update available
+[2021-12-22 12:16:36.535] [info] Checking for app update
+[2021-12-22 12:16:36.876] [info] No app update available
+[2021-12-22 12:17:36.939] [info] Checking for app update
+[2021-12-22 12:17:37.450] [info] No app update available
+[2021-12-22 12:18:37.500] [info] Checking for app update
+[2021-12-22 12:18:37.795] [info] No app update available
+[2021-12-22 12:19:37.858] [info] Checking for app update
+[2021-12-22 12:19:38.213] [info] No app update available
+[2021-12-22 12:20:38.274] [info] Checking for app update
+[2021-12-22 12:20:38.733] [info] No app update available
+[2021-12-22 12:21:38.762] [info] Checking for app update
+[2021-12-22 12:21:39.134] [info] No app update available
+[2021-12-22 12:22:39.184] [info] Checking for app update
+[2021-12-22 12:22:39.520] [info] No app update available
+[2021-12-22 12:23:39.579] [info] Checking for app update
+[2021-12-22 12:23:39.889] [info] No app update available
+[2021-12-22 12:24:39.943] [info] Checking for app update
+[2021-12-22 12:24:40.277] [info] No app update available
+[2021-12-22 12:25:40.310] [info] Checking for app update
+[2021-12-22 12:25:40.624] [info] No app update available
+[2021-12-22 12:26:40.682] [info] Checking for app update
+[2021-12-22 12:26:41.025] [info] No app update available
+[2021-12-22 12:27:41.124] [info] Checking for app update
+[2021-12-22 12:27:41.468] [info] No app update available
+[2021-12-22 12:28:41.525] [info] Checking for app update
+[2021-12-22 12:28:42.493] [info] No app update available
+[2021-12-22 12:29:42.546] [info] Checking for app update
+[2021-12-22 12:29:42.872] [info] No app update available
+[2021-12-22 12:30:42.920] [info] Checking for app update
+[2021-12-22 12:30:43.452] [info] No app update available
+[2021-12-22 12:31:43.512] [info] Checking for app update
+[2021-12-22 12:31:44.023] [info] No app update available
+[2021-12-22 12:32:44.082] [info] Checking for app update
+[2021-12-22 12:32:44.978] [info] No app update available
+[2021-12-22 12:33:45.037] [info] Checking for app update
+[2021-12-22 12:33:45.536] [info] {
+  "level": "info",
+  "from": "assetCache",
+  "type": "updateAssetsResponseParse",
+  "data": {
+    "time": 187
+  }
+}
+[2021-12-22 12:33:45.536] [info] No app update available
+[2021-12-22 12:34:45.600] [info] Checking for app update
+[2021-12-22 12:34:47.459] [info] {
+  "level": "info",
+  "from": "assetCache",
+  "type": "updateAssetsFetch",
+  "data": {
+    "time": 1858
+  }
+}
+[2021-12-22 12:34:47.636] [info] No app update available
+[2021-12-22 12:35:47.681] [info] Checking for app update
+[2021-12-22 12:35:48.173] [info] No app update available
+[2021-12-22 12:36:48.237] [info] Checking for app update
+[2021-12-22 12:36:48.559] [info] No app update available
+[2021-12-22 12:37:48.613] [info] Checking for app update
+[2021-12-22 12:37:49.100] [info] No app update available
+[2021-12-22 12:38:49.159] [info] Checking for app update
+[2021-12-22 12:38:49.620] [info] No app update available
+[2021-12-22 12:39:49.680] [info] Checking for app update
+[2021-12-22 12:39:49.969] [info] No app update available
+[2021-12-22 12:40:50.028] [info] Checking for app update
+[2021-12-22 12:40:50.341] [info] No app update available
+[2021-12-22 12:41:50.402] [info] Checking for app update
+[2021-12-22 12:41:50.724] [info] No app update available
+[2021-12-23 12:10:23.354] [info] Checking for update
+[2021-12-23 12:10:23.726] [info] latestVersion.json path /home/ackbar/.config/Notion/notionAssetCache-v2/latestVersion.json
+[2021-12-23 12:10:23.729] [error] Error: Error: ENOENT: no such file or directory, open '/usr/share/lotion-native/Lotion/resources/app-update.yml'
+[2021-12-23 12:10:23.733] [info] Current version loaded: {"version":"23.10.16.8"}
+[2021-12-23 12:10:23.733] [info] Sync versions: assets.json path /home/ackbar/.config/Notion/notionAssetCache-v2/23.10.16.8/assets.json headers.json path /home/ackbar/.config/Notion/notionAssetCache-v2/23.10.16.8/headers.json
+[2021-12-23 12:10:23.748] [info] Current synced assets.json: 23.10.16.8
+[2021-12-23 12:10:24.235] [info] Sync versions: same version skipping sync
+[2021-12-23 12:10:24.235] [info] Performing file request: /, abs path /home/ackbar/.config/Notion/notionAssetCache-v2/23.10.16.8/assets/index-ko-KR-c16d9ab3be8ea01439ff.html
+[2021-12-23 12:10:24.362] [info] Performing file request: /711-17b0a195537095b60ea5.js, abs path /home/ackbar/.config/Notion/notionAssetCache-v2/23.10.16.8/assets/711-17b0a195537095b60ea5.js
+[2021-12-23 12:10:24.363] [info] Performing file request: /app-ccd42d94539903268587.js, abs path /home/ackbar/.config/Notion/notionAssetCache-v2/23.10.16.8/assets/app-ccd42d94539903268587.js
+[2021-12-23 12:10:24.364] [info] Performing file request: /app-21eb0c05ca983c393d67.css, abs path /home/ackbar/.config/Notion/notionAssetCache-v2/23.10.16.8/assets/app-21eb0c05ca983c393d67.css
+[2021-12-23 12:10:24.366] [info] Performing file request: /print.b31f28aa.css, abs path /home/ackbar/.config/Notion/notionAssetCache-v2/23.10.16.8/assets/print.b31f28aa.css
+[2021-12-23 12:10:24.941] [info] Performing file request: /markdown-linkify-it-1b44aab5f3847126306c.js, abs path /home/ackbar/.config/Notion/notionAssetCache-v2/23.10.16.8/assets/markdown-linkify-it-1b44aab5f3847126306c.js
+[2021-12-23 12:10:25.096] [info] Performing file request: /primus-11bd7655d61c6a4f81ab.js, abs path /home/ackbar/.config/Notion/notionAssetCache-v2/23.10.16.8/assets/primus-11bd7655d61c6a4f81ab.js
+[2021-12-23 12:10:27.509] [info] Performing file request: /analytics-amplitude-981617b84d3bec606641.js, abs path /home/ackbar/.config/Notion/notionAssetCache-v2/23.10.16.8/assets/analytics-amplitude-981617b84d3bec606641.js
+[2021-12-23 12:10:27.511] [info] Performing file request: /analytics-segment-57e09e890c48283ff035.js, abs path /home/ackbar/.config/Notion/notionAssetCache-v2/23.10.16.8/assets/analytics-segment-57e09e890c48283ff035.js
+[2021-12-23 12:10:27.533] [info] Performing file request: /177-2b2c49d4bc58690ad39c.js, abs path /home/ackbar/.config/Notion/notionAssetCache-v2/23.10.16.8/assets/177-2b2c49d4bc58690ad39c.js
+[2021-12-23 12:10:27.534] [info] Performing file request: /postRender-427d48d47871597b8d9f.js, abs path /home/ackbar/.config/Notion/notionAssetCache-v2/23.10.16.8/assets/postRender-427d48d47871597b8d9f.js
+[2021-12-23 12:10:28.151] [info] Performing file request: /ajs-destination-6dd326b5dd0e028410b5.js, abs path /home/ackbar/.config/Notion/notionAssetCache-v2/23.10.16.8/assets/ajs-destination-6dd326b5dd0e028410b5.js
+[2021-12-23 12:10:33.477] [info] Checking for app update
+[2021-12-23 12:10:33.817] [info] App update available 23.10.16.10
+[2021-12-23 12:10:35.948] [info] App update download complete 23.10.16.10
+[2021-12-23 12:10:35.949] [info] Installing app update 23.10.16.10
+[2021-12-23 12:11:36.012] [info] Checking for app update
+[2021-12-23 12:11:36.344] [info] No app update available
+[2021-12-23 12:12:36.404] [info] Checking for app update
+[2021-12-23 12:12:37.061] [info] No app update available
+[2021-12-23 12:13:37.121] [info] Checking for app update
+[2021-12-23 12:13:37.574] [info] No app update available
+[2021-12-23 12:14:37.628] [info] Checking for app update
+[2021-12-23 12:14:37.931] [info] No app update available
+[2021-12-23 12:15:37.987] [info] Checking for app update
+[2021-12-23 12:15:38.313] [info] No app update available
+[2021-12-23 12:16:38.373] [info] Checking for app update
+[2021-12-23 12:16:38.672] [info] No app update available
+[2021-12-23 12:17:38.730] [info] Checking for app update
+[2021-12-23 12:17:39.012] [info] No app update available
+[2021-12-23 12:18:39.070] [info] Checking for app update
+[2021-12-23 12:18:39.375] [info] No app update available
+[2021-12-23 12:19:39.437] [info] Checking for app update
+[2021-12-23 12:19:39.733] [info] No app update available
+[2021-12-23 12:20:39.749] [info] Checking for app update
+[2021-12-23 12:20:40.071] [info] No app update available
+[2021-12-23 12:21:40.130] [info] Checking for app update
+[2021-12-23 12:21:40.419] [info] {
+  "level": "info",
+  "from": "assetCache",
+  "type": "updateAssetsFetch",
+  "data": {
+    "time": 288
+  }
+}
+[2021-12-23 12:21:40.426] [info] No app update available
+[2021-12-23 12:22:40.488] [info] Checking for app update
+[2021-12-23 12:22:40.993] [info] No app update available
+[2021-12-23 12:23:41.050] [info] Checking for app update
+[2021-12-23 12:23:41.355] [info] No app update available
+[2021-12-23 12:24:41.414] [info] Checking for app update
+[2021-12-23 12:24:41.961] [info] No app update available
+[2021-12-23 12:25:42.020] [info] Checking for app update
+[2021-12-23 12:25:42.489] [info] No app update available
+[2021-12-23 12:26:42.543] [info] Checking for app update
+[2021-12-23 12:26:43.602] [info] No app update available
+[2021-12-23 12:27:43.665] [info] Checking for app update
+[2021-12-23 12:27:43.954] [info] No app update available
+[2021-12-23 12:28:44.013] [info] Checking for app update
+[2021-12-23 12:28:44.295] [info] No app update available
+[2021-12-23 12:29:44.321] [info] Checking for app update
+[2021-12-23 12:29:44.606] [info] No app update available
+[2021-12-23 12:30:44.621] [info] Checking for app update
+[2021-12-23 12:30:44.947] [info] No app update available
+[2021-12-23 12:31:45.003] [info] Checking for app update
+[2021-12-23 12:31:45.305] [info] No app update available
+[2021-12-23 12:32:45.364] [info] Checking for app update
+[2021-12-23 12:32:45.644] [info] No app update available
+[2021-12-23 12:33:45.703] [info] Checking for app update
+[2021-12-23 12:33:46.154] [info] No app update available
+[2021-12-23 12:34:46.167] [info] Checking for app update
+[2021-12-23 12:34:46.474] [info] No app update available
+[2021-12-23 12:35:46.523] [info] Checking for app update
+[2021-12-23 12:35:46.845] [info] No app update available
+[2021-12-23 12:36:46.846] [info] Checking for app update
+[2021-12-23 12:36:47.817] [info] No app update available
+[2021-12-23 12:37:47.877] [info] Checking for app update
+[2021-12-23 12:37:48.161] [info] No app update available
+[2021-12-23 12:38:48.220] [info] Checking for app update
+[2021-12-23 12:38:48.699] [info] No app update available
+[2021-12-23 12:39:48.737] [info] Checking for app update
+[2021-12-23 12:39:49.057] [info] No app update available
+[2021-12-23 12:40:49.080] [info] Checking for app update
+[2021-12-23 12:40:49.528] [info] No app update available
+[2021-12-23 12:41:49.532] [info] Checking for app update
+[2021-12-23 12:41:49.846] [info] No app update available
+[2021-12-23 12:42:49.880] [info] Checking for app update
+[2021-12-23 12:42:50.317] [info] No app update available
+[2021-12-23 12:43:50.377] [info] Checking for app update
+[2021-12-23 12:43:50.852] [info] No app update available
+[2021-12-23 12:44:50.910] [info] Checking for app update
+[2021-12-23 12:44:51.218] [info] No app update available
+[2021-12-23 12:45:51.242] [info] Checking for app update
+[2021-12-23 12:45:51.596] [info] No app update available
+[2021-12-23 12:46:51.656] [info] Checking for app update
+[2021-12-23 12:46:52.104] [info] No app update available
+[2021-12-23 12:47:52.166] [info] Checking for app update
+[2021-12-23 12:47:52.477] [info] No app update available
+[2021-12-23 12:48:52.537] [info] Checking for app update
+[2021-12-23 12:48:52.842] [info] No app update available
+[2021-12-23 12:49:52.866] [info] Checking for app update
+[2021-12-23 12:49:53.671] [info] No app update available
+[2021-12-23 12:50:53.700] [info] Checking for app update
+[2021-12-23 12:50:54.686] [info] No app update available
+[2021-12-23 12:51:54.747] [info] Checking for app update
+[2021-12-23 12:51:55.036] [info] No app update available
+[2021-12-23 12:52:55.049] [info] Checking for app update
+[2021-12-23 12:52:56.124] [info] No app update available
+[2021-12-23 12:53:56.154] [info] Checking for app update
+[2021-12-23 12:53:56.622] [info] No app update available
+[2021-12-23 12:54:56.682] [info] Checking for app update
+[2021-12-23 12:54:57.674] [info] No app update available
+[2021-12-23 12:55:57.733] [info] Checking for app update
+[2021-12-23 12:55:58.054] [info] No app update available
+[2021-12-23 12:56:58.099] [info] Checking for app update
+[2021-12-23 12:56:58.828] [info] No app update available
+[2021-12-23 12:57:58.887] [info] Checking for app update
+[2021-12-23 12:57:59.339] [info] No app update available
+[2021-12-23 12:58:59.363] [info] Checking for app update
+[2021-12-23 12:58:59.659] [info] No app update available
+[2021-12-23 12:59:59.707] [info] Checking for app update
+[2021-12-23 13:00:00.009] [info] No app update available
+[2021-12-23 13:01:00.044] [info] Checking for app update
+[2021-12-23 13:01:00.526] [info] No app update available
+[2021-12-23 13:02:00.587] [info] Checking for app update
+[2021-12-23 13:02:00.918] [info] No app update available
+[2021-12-23 13:03:00.978] [info] Checking for app update
+[2021-12-23 13:03:01.350] [info] No app update available
+[2021-12-23 13:04:01.408] [info] Checking for app update
+[2021-12-23 13:04:01.717] [info] No app update available
+[2021-12-23 13:05:01.777] [info] Checking for app update
+[2021-12-23 13:05:02.861] [info] No app update available
+[2021-12-23 13:06:02.920] [info] Checking for app update
+[2021-12-23 13:06:03.231] [info] No app update available
+[2021-12-23 13:07:03.280] [info] Checking for app update
+[2021-12-23 13:07:03.567] [info] No app update available
+[2021-12-23 13:08:03.626] [info] Checking for app update
+[2021-12-23 13:08:04.152] [info] No app update available
+[2021-12-23 13:09:04.161] [info] Checking for app update
+[2021-12-23 13:09:04.475] [info] No app update available
+[2021-12-23 13:10:04.533] [info] Checking for app update
+[2021-12-23 13:10:05.027] [info] No app update available
+[2021-12-23 13:11:05.067] [info] Checking for app update
+[2021-12-23 13:11:05.371] [info] No app update available
+[2021-12-23 13:12:05.430] [info] Checking for app update
+[2021-12-23 13:12:05.899] [info] No app update available
+[2021-12-23 13:13:05.960] [info] Checking for app update
+[2021-12-23 13:13:06.500] [info] No app update available
+[2021-12-23 13:14:06.560] [info] Checking for app update
+[2021-12-23 13:14:06.846] [info] No app update available
+[2021-12-23 13:15:06.906] [info] Checking for app update
+[2021-12-23 13:15:07.235] [info] No app update available
+[2021-12-23 13:16:07.237] [info] Checking for app update
+[2021-12-23 13:16:07.558] [info] No app update available
+[2021-12-23 13:17:07.580] [info] Checking for app update
+[2021-12-23 13:17:07.866] [info] No app update available
+[2021-12-23 13:18:07.926] [info] Checking for app update
+[2021-12-23 13:18:08.216] [info] No app update available
+[2021-12-23 13:19:08.267] [info] Checking for app update
+[2021-12-23 13:19:08.562] [info] No app update available
+[2021-12-23 13:20:08.616] [info] Checking for app update
+[2021-12-23 13:20:09.091] [info] No app update available
+[2021-12-23 13:21:09.133] [info] Checking for app update
+[2021-12-23 13:21:10.288] [info] No app update available
+[2021-12-23 13:22:10.333] [info] Checking for app update
+[2021-12-23 13:22:10.789] [info] No app update available
+[2021-12-23 13:23:10.798] [info] Checking for app update
+[2021-12-23 13:23:11.306] [info] No app update available
+[2021-12-23 13:24:11.369] [info] Checking for app update
+[2021-12-23 13:24:11.693] [info] No app update available
+[2021-12-23 13:25:11.698] [info] Checking for app update
+[2021-12-23 13:25:12.015] [info] No app update available
+[2021-12-23 13:26:12.074] [info] Checking for app update
+[2021-12-23 13:26:12.570] [info] No app update available
+[2021-12-23 13:27:12.631] [info] Checking for app update
+[2021-12-23 13:27:13.084] [info] No app update available
+[2021-12-23 13:28:13.144] [info] Checking for app update
+[2021-12-23 13:28:13.881] [info] No app update available
+[2021-12-23 13:29:13.906] [info] Checking for app update
+[2021-12-23 13:29:14.198] [info] No app update available
+[2021-12-23 13:30:14.260] [info] Checking for app update
+[2021-12-23 13:30:14.772] [info] No app update available
+[2021-12-23 13:31:14.820] [info] Checking for app update
+[2021-12-23 13:31:15.145] [info] No app update available
+[2021-12-23 13:32:15.203] [info] Checking for app update
+[2021-12-23 13:32:15.490] [info] No app update available
+[2021-12-23 13:33:15.546] [info] Checking for app update
+[2021-12-23 13:33:16.790] [info] No app update available
+[2021-12-23 13:34:16.851] [info] Checking for app update
+[2021-12-23 13:34:17.135] [info] No app update available
+[2021-12-23 13:35:17.196] [info] Checking for app update
+[2021-12-23 13:35:18.286] [info] No app update available
+[2021-12-23 13:36:18.346] [info] Checking for app update
+[2021-12-23 13:36:18.659] [info] No app update available
+[2021-12-23 13:37:18.713] [info] Checking for app update
+[2021-12-23 13:37:19.004] [info] No app update available
+[2021-12-23 13:38:19.053] [info] Checking for app update
+[2021-12-23 13:38:19.889] [info] No app update available
+[2021-12-23 13:39:19.950] [info] Checking for app update
+[2021-12-23 13:39:20.398] [info] No app update available
+[2021-12-23 13:40:20.456] [info] Checking for app update
+[2021-12-23 13:40:20.797] [info] No app update available
+[2021-12-23 13:41:20.853] [info] Checking for app update
+[2021-12-23 13:41:21.548] [info] No app update available
+[2021-12-23 13:42:21.608] [info] Checking for app update
+[2021-12-23 13:42:22.071] [info] No app update available
+[2021-12-23 13:43:22.090] [info] Checking for app update
+[2021-12-23 13:43:23.076] [info] No app update available
+[2021-12-23 13:44:23.136] [info] Checking for app update
+[2021-12-23 13:44:23.449] [info] No app update available
+[2021-12-23 13:45:23.510] [info] Checking for app update
+[2021-12-23 13:45:23.889] [info] No app update available
+[2021-12-23 13:46:23.950] [info] Checking for app update
+[2021-12-23 13:46:24.274] [info] No app update available
+[2021-12-23 13:47:24.333] [info] Checking for app update
+[2021-12-23 13:47:24.637] [info] No app update available
+[2021-12-23 13:48:24.696] [info] Checking for app update
+[2021-12-23 13:48:25.010] [info] No app update available
+[2021-12-23 13:49:25.070] [info] Checking for app update
+[2021-12-23 13:49:25.360] [info] No app update available
+[2021-12-23 13:50:25.362] [info] Checking for app update
+[2021-12-23 13:50:25.673] [info] {
+  "level": "info",
+  "from": "assetCache",
+  "type": "updateAssetsResponseParse",
+  "data": {
+    "time": 6
+  }
+}
+[2021-12-23 13:50:25.673] [info] No app update available
+[2021-12-23 13:51:25.733] [info] Checking for app update
+[2021-12-23 13:51:26.051] [info] No app update available
+[2021-12-23 13:52:26.076] [info] Checking for app update
+[2021-12-23 13:52:26.359] [info] No app update available
+[2021-12-23 13:53:26.414] [info] Checking for app update
+[2021-12-23 13:53:26.721] [info] No app update available
+[2021-12-23 13:54:26.764] [info] Checking for app update
+[2021-12-23 13:54:27.059] [info] No app update available
+[2021-12-23 13:55:27.116] [info] Checking for app update
+[2021-12-23 13:55:27.437] [info] No app update available
+[2021-12-23 13:56:27.465] [info] Checking for app update
+[2021-12-23 13:56:27.757] [info] No app update available
+[2021-12-23 13:57:27.813] [info] Checking for app update
+[2021-12-23 13:57:28.300] [info] No app update available
+[2021-12-23 13:58:28.361] [info] Checking for app update
+[2021-12-23 13:58:28.813] [info] No app update available
+[2021-12-23 13:59:28.873] [info] Checking for app update
+[2021-12-23 13:59:29.176] [info] No app update available
+[2021-12-23 14:00:29.180] [info] Checking for app update
+[2021-12-23 14:00:29.547] [info] No app update available
+[2021-12-23 14:01:29.606] [info] Checking for app update
+[2021-12-23 14:01:29.886] [info] No app update available
+[2021-12-23 14:02:29.946] [info] Checking for app update
+[2021-12-23 14:02:30.941] [info] No app update available
+[2021-12-23 14:03:30.996] [info] Checking for app update
+[2021-12-23 14:03:32.053] [info] No app update available
+[2021-12-23 14:04:32.112] [info] Checking for app update
+[2021-12-23 14:04:33.095] [info] No app update available
+[2021-12-23 14:05:33.146] [info] Checking for app update
+[2021-12-23 14:05:33.818] [info] No app update available
+[2021-12-23 14:06:33.853] [info] Checking for app update
+[2021-12-23 14:06:34.152] [info] No app update available
+[2021-12-23 14:07:34.211] [info] Checking for app update
+[2021-12-23 14:07:34.492] [info] No app update available
+[2021-12-23 14:08:34.553] [info] Checking for app update
+[2021-12-23 14:08:35.002] [info] No app update available
+[2021-12-23 14:09:35.026] [info] Checking for app update
+[2021-12-23 14:09:35.511] [info] No app update available
+[2021-12-23 14:10:35.519] [info] Checking for app update
+[2021-12-23 14:10:36.032] [info] No app update available
+[2021-12-23 14:11:36.093] [info] Checking for app update
+[2021-12-23 14:11:36.540] [info] No app update available
+[2021-12-23 14:12:36.591] [info] Checking for app update
+[2021-12-23 14:12:36.895] [info] No app update available
+[2021-12-23 14:13:36.956] [info] Checking for app update
+[2021-12-23 14:13:37.279] [info] No app update available
+[2021-12-23 14:14:37.339] [info] Checking for app update
+[2021-12-23 14:14:37.789] [info] No app update available
+[2021-12-23 14:15:37.846] [info] Checking for app update
+[2021-12-23 14:15:38.338] [info] No app update available
+[2021-12-23 14:16:38.367] [info] Checking for app update
+[2021-12-23 14:16:38.851] [info] {
+  "level": "info",
+  "from": "assetCache",
+  "type": "updateAssetsResponseParse",
+  "data": {
+    "time": 191
+  }
+}
+[2021-12-23 14:16:38.852] [info] No app update available
+[2021-12-23 14:17:38.909] [info] Checking for app update
+[2021-12-23 14:17:39.382] [info] No app update available
+[2021-12-23 14:18:39.429] [info] Checking for app update
+[2021-12-23 14:18:39.905] [info] No app update available
+[2021-12-23 14:19:39.966] [info] Checking for app update
+[2021-12-23 14:19:40.270] [info] No app update available
+[2021-12-23 14:20:40.284] [info] Checking for app update
+[2021-12-23 14:20:40.754] [info] No app update available
+[2021-12-23 14:21:40.800] [info] Checking for app update
+[2021-12-23 14:21:41.083] [info] No app update available
+[2021-12-23 14:22:41.143] [info] Checking for app update
+[2021-12-23 14:22:41.526] [info] No app update available
+[2021-12-23 14:23:41.586] [info] Checking for app update
+[2021-12-23 14:23:42.025] [info] No app update available
+[2021-12-23 14:24:42.086] [info] Checking for app update
+[2021-12-23 14:24:42.614] [info] No app update available
+[2021-12-23 14:25:42.634] [info] Checking for app update
+[2021-12-23 14:25:42.968] [info] No app update available
+[2021-12-23 14:26:42.989] [info] Checking for app update
+[2021-12-23 14:26:43.288] [info] No app update available
+[2021-12-23 14:27:43.346] [info] Checking for app update
+[2021-12-23 14:27:43.825] [info] No app update available
+[2021-12-23 14:28:43.886] [info] Checking for app update
+[2021-12-23 14:28:44.363] [info] No app update available
+[2021-12-23 14:29:44.422] [info] Checking for app update
+[2021-12-23 14:29:44.734] [info] No app update available
+[2021-12-23 14:30:44.735] [info] Checking for app update
+[2021-12-23 14:30:45.935] [info] No app update available
+[2021-12-23 14:31:45.959] [info] Checking for app update
+[2021-12-23 14:31:46.440] [info] No app update available
+[2021-12-23 14:32:46.482] [info] Checking for app update
+[2021-12-23 14:32:47.559] [info] No app update available
+[2021-12-23 14:33:47.622] [info] Checking for app update
+[2021-12-23 14:33:48.070] [info] No app update available
+[2021-12-23 14:34:48.107] [info] Checking for app update
+[2021-12-23 14:34:49.094] [info] No app update available
+[2021-12-23 14:35:49.153] [info] Checking for app update
+[2021-12-23 14:35:49.634] [info] No app update available
+[2021-12-23 14:36:49.692] [info] Checking for app update
+[2021-12-23 14:36:49.973] [info] No app update available
+[2021-12-23 14:37:49.982] [info] Checking for app update
+[2021-12-23 14:37:50.426] [info] No app update available
+[2021-12-23 14:38:50.429] [info] Checking for app update
+[2021-12-23 14:38:50.715] [info] No app update available
+[2021-12-23 14:39:50.776] [info] Checking for app update
+[2021-12-23 14:39:51.259] [info] No app update available
+[2021-12-23 14:40:51.282] [info] Checking for app update
+[2021-12-23 14:40:51.593] [info] No app update available
+[2021-12-23 14:41:51.652] [info] Checking for app update
+[2021-12-23 14:41:52.130] [info] No app update available
+[2021-12-23 14:42:52.190] [info] Checking for app update
+[2021-12-23 14:42:52.484] [info] No app update available
+[2021-12-23 14:43:52.493] [info] Checking for app update
+[2021-12-23 14:43:52.817] [info] No app update available
+[2021-12-23 14:44:52.860] [info] Checking for app update
+[2021-12-23 14:44:53.170] [info] No app update available
+[2021-12-23 14:45:53.229] [info] Checking for app update
+[2021-12-23 14:45:53.754] [info] No app update available
+[2021-12-23 14:46:53.814] [info] Checking for app update
+[2021-12-23 14:46:54.138] [info] No app update available
+[2021-12-23 14:47:54.196] [info] Checking for app update
+[2021-12-23 14:47:54.486] [info] No app update available
+[2021-12-23 14:48:54.541] [info] Checking for app update
+[2021-12-23 14:48:55.504] [info] No app update available
+[2021-12-23 14:49:55.563] [info] Checking for app update
+[2021-12-23 14:49:56.068] [info] No app update available
+[2021-12-23 14:50:56.095] [info] Checking for app update
+[2021-12-23 14:50:56.613] [info] No app update available
+[2021-12-23 14:51:56.673] [info] Checking for app update
+[2021-12-23 14:51:57.750] [info] No app update available
+[2021-12-23 14:52:57.795] [info] Checking for app update
+[2021-12-23 14:52:58.266] [info] No app update available
+[2021-12-23 14:53:58.326] [info] Checking for app update
+[2021-12-23 14:53:58.674] [info] No app update available
+[2021-12-23 14:54:58.732] [info] Checking for app update
+[2021-12-23 14:54:59.040] [info] No app update available
+[2021-12-23 14:55:59.102] [info] Checking for app update
+[2021-12-23 14:56:00.083] [info] No app update available
+[2021-12-23 14:57:00.143] [info] Checking for app update
+[2021-12-23 14:57:00.428] [info] No app update available
+[2021-12-23 14:58:00.487] [info] Checking for app update
+[2021-12-23 14:58:00.778] [info] No app update available
+[2021-12-23 14:59:00.838] [info] Checking for app update
+[2021-12-23 14:59:01.122] [info] No app update available
+[2021-12-23 15:00:01.164] [info] Checking for app update
+[2021-12-23 15:00:01.484] [info] No app update available
+[2021-12-23 15:01:01.511] [info] Checking for app update
+[2021-12-23 15:01:01.818] [info] No app update available
+[2021-12-23 15:02:01.876] [info] Checking for app update
+[2021-12-23 15:02:02.325] [info] No app update available
+[2021-12-23 15:03:02.386] [info] Checking for app update
+[2021-12-23 15:03:03.365] [info] No app update available
+[2021-12-23 15:04:03.422] [info] Checking for app update
+[2021-12-23 15:04:03.876] [info] No app update available
+[2021-12-23 15:05:03.932] [info] Checking for app update
+[2021-12-23 15:05:04.237] [info] No app update available
+[2021-12-23 15:06:04.298] [info] Checking for app update
+[2021-12-23 15:06:04.611] [info] No app update available
+[2021-12-23 15:07:04.669] [info] Checking for app update
+[2021-12-23 15:07:05.739] [info] No app update available
+[2021-12-23 15:08:05.801] [info] Checking for app update
+[2021-12-23 15:08:06.291] [info] No app update available
+[2021-12-23 15:09:06.349] [info] Checking for app update
+[2021-12-23 15:09:06.649] [info] No app update available
+[2021-12-23 15:10:06.709] [info] Checking for app update
+[2021-12-23 15:10:07.032] [info] No app update available
+[2021-12-23 15:11:07.052] [info] Checking for app update
+[2021-12-23 15:11:07.374] [info] No app update available
+[2021-12-23 15:12:07.436] [info] Checking for app update
+[2021-12-23 15:12:07.720] [info] No app update available
+[2021-12-23 15:13:07.775] [info] Checking for app update
+[2021-12-23 15:13:08.065] [info] {
+  "level": "info",
+  "from": "assetCache",
+  "type": "updateAssetsResponseParse",
+  "data": {
+    "time": 6
+  }
+}
+[2021-12-23 15:13:08.065] [info] No app update available
+[2021-12-23 15:14:08.125] [info] Checking for app update
+[2021-12-23 15:14:08.455] [info] No app update available
+[2021-12-23 15:15:08.512] [info] Checking for app update
+[2021-12-23 15:15:08.827] [info] No app update available
+[2021-12-23 15:16:08.885] [info] Checking for app update
+[2021-12-23 15:16:09.199] [info] No app update available
+[2021-12-23 15:17:09.259] [info] Checking for app update
+[2021-12-23 15:17:09.564] [info] No app update available
+[2021-12-23 15:18:09.610] [info] Checking for app update
+[2021-12-23 15:18:09.919] [info] No app update available
+[2021-12-23 15:19:09.979] [info] Checking for app update
+[2021-12-23 15:19:10.471] [info] No app update available
+[2021-12-23 15:20:10.529] [info] Checking for app update
+[2021-12-23 15:20:10.834] [info] No app update available
+[2021-12-23 15:21:10.879] [info] Checking for app update
+[2021-12-23 15:21:11.210] [info] No app update available
+[2021-12-23 15:22:11.230] [info] Checking for app update
+[2021-12-23 15:22:11.799] [info] No app update available
+[2021-12-23 15:23:11.859] [info] Checking for app update
+[2021-12-23 15:23:12.360] [info] No app update available
+[2021-12-23 15:24:12.387] [info] Checking for app update
+[2021-12-23 15:24:12.844] [info] No app update available
+[2021-12-23 15:25:12.867] [info] Checking for app update
+[2021-12-23 15:25:13.370] [info] No app update available
+[2021-12-23 15:26:13.390] [info] Checking for app update
+[2021-12-23 15:26:13.725] [info] No app update available
+[2021-12-23 15:27:13.787] [info] Checking for app update
+[2021-12-23 15:27:14.065] [info] No app update available
+[2021-12-23 15:28:14.125] [info] Checking for app update
+[2021-12-23 15:28:14.439] [info] No app update available
+[2021-12-23 15:29:14.496] [info] Checking for app update
+[2021-12-23 15:29:15.102] [info] No app update available
+[2021-12-23 15:30:15.160] [info] Checking for app update
+[2021-12-23 15:30:15.667] [info] No app update available
+[2021-12-23 15:31:15.684] [info] Checking for app update
+[2021-12-23 15:31:16.147] [info] No app update available
+[2021-12-23 15:32:16.192] [info] Checking for app update
+[2021-12-23 15:32:16.642] [info] No app update available
+[2021-12-23 15:33:16.656] [info] Checking for app update
+[2021-12-23 15:33:17.112] [info] No app update available
+[2021-12-23 15:34:17.165] [info] Checking for app update
+[2021-12-23 15:34:18.127] [info] No app update available
+[2021-12-23 15:35:18.165] [info] Checking for app update
+[2021-12-23 15:35:18.533] [info] No app update available
+[2021-12-23 15:36:18.588] [info] Checking for app update
+[2021-12-23 15:36:18.883] [info] {
+  "level": "info",
+  "from": "assetCache",
+  "type": "updateAssetsFetch",
+  "data": {
+    "time": 295
+  }
+}
+[2021-12-23 15:36:19.051] [info] No app update available
+[2021-12-23 15:37:19.093] [info] Checking for app update
+[2021-12-23 15:37:19.606] [info] No app update available
+[2021-12-23 15:38:19.656] [info] Checking for app update
+[2021-12-23 15:38:19.993] [info] No app update available
+[2021-12-23 15:39:20.052] [info] Checking for app update
+[2021-12-23 15:39:20.359] [info] No app update available
+[2021-12-23 15:40:20.420] [info] Checking for app update
+[2021-12-23 15:40:20.862] [info] No app update available
+[2021-12-23 15:41:20.916] [info] Checking for app update
+[2021-12-23 15:41:21.239] [info] No app update available
+[2021-12-23 15:42:21.299] [info] Checking for app update
+[2021-12-23 15:42:21.594] [info] No app update available
+[2021-12-23 15:43:21.645] [info] Checking for app update
+[2021-12-23 15:43:21.955] [info] No app update available
+[2021-12-23 15:44:22.002] [info] Checking for app update
+[2021-12-23 15:44:22.319] [info] No app update available
+[2021-12-23 15:45:22.379] [info] Checking for app update
+[2021-12-23 15:45:22.888] [info] No app update available
+[2021-12-23 15:46:22.949] [info] Checking for app update
+[2021-12-23 15:46:23.286] [info] No app update available
+[2021-12-23 15:47:23.345] [info] Checking for app update
+[2021-12-23 15:47:24.391] [info] No app update available
+[2021-12-23 15:48:24.410] [info] Checking for app update
+[2021-12-23 15:48:24.862] [info] No app update available
+[2021-12-23 15:49:24.923] [info] Checking for app update
+[2021-12-23 15:49:25.298] [info] No app update available
+[2021-12-23 15:50:25.298] [info] Checking for app update
+[2021-12-23 15:50:25.762] [info] No app update available
+[2021-12-23 15:51:25.819] [info] Checking for app update
+[2021-12-23 15:51:26.131] [info] No app update available
+[2021-12-23 15:52:26.179] [info] Checking for app update
+[2021-12-23 15:52:26.817] [info] No app update available
+[2021-12-23 15:53:26.880] [info] Checking for app update
+[2021-12-23 15:53:27.161] [info] No app update available
+[2021-12-23 15:54:27.219] [info] Checking for app update
+[2021-12-23 15:54:27.504] [info] No app update available
+[2021-12-23 15:55:27.562] [info] Checking for app update
+[2021-12-23 15:55:27.918] [info] No app update available
+[2021-12-23 15:56:27.979] [info] Checking for app update
+[2021-12-23 15:56:29.273] [info] No app update available
+[2021-12-23 15:57:29.321] [info] Checking for app update
+[2021-12-23 15:57:29.621] [info] No app update available
+[2021-12-23 15:58:29.647] [info] Checking for app update
+[2021-12-23 15:58:29.951] [info] No app update available
+[2021-12-23 15:59:30.013] [info] Checking for app update
+[2021-12-23 15:59:30.311] [info] No app update available
+[2021-12-23 16:00:30.318] [info] Checking for app update
+[2021-12-23 16:00:30.621] [info] No app update available
+[2021-12-23 16:01:30.679] [info] Checking for app update
+[2021-12-23 16:01:31.007] [info] No app update available
+[2021-12-23 16:02:31.065] [info] Checking for app update
+[2021-12-23 16:02:32.124] [info] No app update available
+[2021-12-23 16:03:32.182] [info] Checking for app update
+[2021-12-23 16:03:32.536] [info] No app update available
+[2021-12-23 16:04:32.595] [info] Checking for app update
+[2021-12-23 16:04:32.894] [info] No app update available
+[2021-12-23 16:05:32.952] [info] Checking for app update
+[2021-12-23 16:05:33.276] [info] No app update available
+[2021-12-23 16:06:33.294] [info] Checking for app update
+[2021-12-23 16:06:33.766] [info] No app update available
+[2021-12-23 16:07:33.826] [info] Checking for app update
+[2021-12-23 16:07:34.281] [info] No app update available
+[2021-12-23 16:08:34.339] [info] Checking for app update
+[2021-12-23 16:08:35.014] [info] No app update available
+[2021-12-23 16:09:35.072] [info] Checking for app update
+[2021-12-23 16:09:35.389] [info] No app update available
+[2021-12-23 16:10:35.398] [info] Checking for app update
+[2021-12-23 16:10:35.708] [info] No app update available
+[2021-12-23 16:11:35.719] [info] Checking for app update
+[2021-12-23 16:11:36.035] [info] No app update available
+[2021-12-23 16:12:36.096] [info] Checking for app update
+[2021-12-23 16:12:36.397] [info] No app update available
+[2021-12-23 16:13:36.442] [info] Checking for app update
+[2021-12-23 16:13:36.892] [info] No app update available
+[2021-12-23 16:14:36.952] [info] Checking for app update
+[2021-12-23 16:14:37.416] [info] No app update available
+[2021-12-23 16:15:37.454] [info] Checking for app update
+[2021-12-23 16:15:37.967] [info] No app update available
+[2021-12-23 16:16:38.025] [info] Checking for app update
+[2021-12-23 16:16:38.355] [info] No app update available
+[2021-12-23 16:17:38.416] [info] Checking for app update
+[2021-12-23 16:17:38.704] [info] No app update available
+[2021-12-23 16:18:38.763] [info] Checking for app update
+[2021-12-23 16:18:39.065] [info] No app update available
+[2021-12-23 16:19:39.087] [info] Checking for app update
+[2021-12-23 16:19:39.391] [info] No app update available
+[2021-12-23 16:20:39.406] [info] Checking for app update
+[2021-12-23 16:20:39.718] [info] No app update available
+[2021-12-23 16:21:39.779] [info] Checking for app update
+[2021-12-23 16:21:40.506] [info] No app update available
+[2021-12-23 16:22:40.565] [info] Checking for app update
+[2021-12-23 16:22:40.866] [info] No app update available
+[2021-12-23 16:23:40.919] [info] Checking for app update
+[2021-12-23 16:23:41.216] [info] No app update available
+[2021-12-23 16:24:41.276] [info] Checking for app update
+[2021-12-23 16:24:41.589] [info] No app update available
+[2021-12-23 16:25:41.649] [info] Checking for app update
+[2021-12-23 16:25:42.118] [info] No app update available
+[2021-12-23 16:26:42.179] [info] Checking for app update
+[2021-12-23 16:26:42.496] [info] No app update available
+[2021-12-23 16:27:42.555] [info] Checking for app update
+[2021-12-23 16:27:42.924] [info] No app update available
+[2021-12-23 16:28:42.982] [info] Checking for app update
+[2021-12-23 16:28:43.269] [info] No app update available
+[2021-12-23 16:29:43.331] [info] Checking for app update
+[2021-12-23 16:29:43.772] [info] No app update available
+[2021-12-23 16:30:43.785] [info] Checking for app update
+[2021-12-23 16:30:44.278] [info] No app update available
+[2021-12-23 16:31:44.339] [info] Checking for app update
+[2021-12-23 16:31:44.862] [info] No app update available
+[2021-12-23 16:32:44.922] [info] Checking for app update
+[2021-12-23 16:32:45.394] [info] No app update available
+[2021-12-23 16:33:45.455] [info] Checking for app update
+[2021-12-23 16:33:45.739] [info] No app update available
+[2021-12-23 16:34:45.798] [info] Checking for app update
+[2021-12-23 16:34:46.289] [info] No app update available
+[2021-12-23 16:35:46.346] [info] Checking for app update
+[2021-12-23 16:35:46.857] [info] No app update available
+[2021-12-23 16:36:46.915] [info] Checking for app update
+[2021-12-23 16:36:47.406] [info] No app update available
+[2021-12-23 16:37:47.466] [info] Checking for app update
+[2021-12-23 16:37:48.656] [info] No app update available
+[2021-12-23 16:38:48.705] [info] Checking for app update
+[2021-12-23 16:38:49.184] [info] No app update available
+[2021-12-23 16:39:49.234] [info] Checking for app update
+[2021-12-23 16:39:49.656] [info] No app update available
+[2021-12-23 16:40:49.682] [info] Checking for app update
+[2021-12-23 16:40:49.995] [info] No app update available
+[2021-12-23 16:41:50.055] [info] Checking for app update
+[2021-12-23 16:41:50.365] [info] No app update available
+[2021-12-23 16:42:50.426] [info] Checking for app update
+[2021-12-23 16:42:50.728] [info] No app update available
+[2021-12-23 16:43:50.789] [info] Checking for app update
+[2021-12-23 16:43:51.075] [info] No app update available
+[2021-12-23 16:44:51.137] [info] Checking for app update
+[2021-12-23 16:44:51.422] [info] No app update available
+[2021-12-23 16:45:51.482] [info] Checking for app update
+[2021-12-23 16:45:51.791] [info] No app update available
+[2021-12-23 16:46:51.851] [info] Checking for app update
+[2021-12-23 16:46:52.142] [info] No app update available
+[2021-12-23 16:47:52.203] [info] Checking for app update
+[2021-12-23 16:47:52.495] [info] No app update available
+[2021-12-23 16:48:52.554] [info] Checking for app update
+[2021-12-23 16:48:53.044] [info] No app update available
+[2021-12-23 16:49:53.106] [info] Checking for app update
+[2021-12-23 16:49:53.438] [info] No app update available
+[2021-12-23 16:50:53.465] [info] Checking for app update
+[2021-12-23 16:50:54.302] [info] No app update available
+[2021-12-23 16:51:54.362] [info] Checking for app update
+[2021-12-23 16:51:54.658] [info] No app update available
+[2021-12-23 16:52:54.660] [info] Checking for app update
+[2021-12-23 16:52:54.963] [info] No app update available
+[2021-12-23 16:53:54.985] [info] Checking for app update
+[2021-12-23 16:53:55.296] [info] No app update available
+[2021-12-23 16:54:55.321] [info] Checking for app update
+[2021-12-23 16:54:56.395] [info] No app update available
+[2021-12-23 16:55:56.395] [info] Checking for app update
+[2021-12-23 16:55:56.951] [info] No app update available
+[2021-12-23 16:56:57.002] [info] Checking for app update
+[2021-12-23 16:56:57.348] [info] No app update available
+[2021-12-23 16:57:57.405] [info] Checking for app update
+[2021-12-23 16:57:57.866] [info] No app update available
+[2021-12-23 16:58:57.899] [info] Checking for app update
+[2021-12-23 16:58:58.213] [info] {
+  "level": "info",
+  "from": "assetCache",
+  "type": "updateAssetsFetch",
+  "data": {
+    "time": 314
+  }
+}
+[2021-12-23 16:58:58.222] [info] No app update available
+[2021-12-23 16:59:58.226] [info] Checking for app update
+[2021-12-23 16:59:58.717] [info] No app update available
+[2021-12-23 17:00:58.736] [info] Checking for app update
+[2021-12-23 17:00:59.252] [info] No app update available
+[2021-12-23 17:01:59.289] [info] Checking for app update
+[2021-12-23 17:01:59.581] [info] No app update available
+[2021-12-23 17:02:59.639] [info] Checking for app update
+[2021-12-23 17:02:59.935] [info] No app update available
+[2021-12-23 17:03:59.995] [info] Checking for app update
+[2021-12-23 17:04:00.277] [info] No app update available
+[2021-12-23 17:05:00.335] [info] Checking for app update
+[2021-12-23 17:05:00.809] [info] No app update available
+[2021-12-23 17:06:00.812] [info] Checking for app update
+[2021-12-23 17:06:01.157] [info] No app update available
+[2022-03-06 20:13:32.003] [info] Checking for update
+[2022-03-06 20:13:32.479] [info] latestVersion.json path /home/ackbar/.config/Notion/notionAssetCache-v2/latestVersion.json
+[2022-03-06 20:13:32.484] [error] Error: Error: ENOENT: no such file or directory, open '/usr/share/lotion-native/Lotion/resources/app-update.yml'
+[2022-03-06 20:13:32.487] [info] Current version loaded: {"version":"23.10.16.10"}
+[2022-03-06 20:13:32.488] [info] Sync versions: assets.json path /home/ackbar/.config/Notion/notionAssetCache-v2/23.10.16.10/assets.json headers.json path /home/ackbar/.config/Notion/notionAssetCache-v2/23.10.16.10/headers.json
+[2022-03-06 20:13:32.510] [info] Current synced assets.json: 23.10.16.10
+[2022-03-06 20:13:33.347] [info] Sync versions: same version skipping sync
+[2022-03-06 20:13:33.348] [info] Performing file request: /, abs path /home/ackbar/.config/Notion/notionAssetCache-v2/23.10.16.10/assets/index-ko-KR-4a64536ee5705e9079c9.html
+[2022-03-06 20:13:33.605] [info] Performing file request: /711-17b0a195537095b60ea5.js, abs path /home/ackbar/.config/Notion/notionAssetCache-v2/23.10.16.10/assets/711-17b0a195537095b60ea5.js
+[2022-03-06 20:13:33.606] [info] Performing file request: /app-c598d58da87080ef2db6.js, abs path /home/ackbar/.config/Notion/notionAssetCache-v2/23.10.16.10/assets/app-c598d58da87080ef2db6.js
+[2022-03-06 20:13:33.608] [info] Performing file request: /app-21eb0c05ca983c393d67.css, abs path /home/ackbar/.config/Notion/notionAssetCache-v2/23.10.16.10/assets/app-21eb0c05ca983c393d67.css
+[2022-03-06 20:13:33.614] [info] Performing file request: /print.b31f28aa.css, abs path /home/ackbar/.config/Notion/notionAssetCache-v2/23.10.16.10/assets/print.b31f28aa.css
+[2022-03-06 20:13:34.597] [info] Performing file request: /markdown-linkify-it-1b44aab5f3847126306c.js, abs path /home/ackbar/.config/Notion/notionAssetCache-v2/23.10.16.10/assets/markdown-linkify-it-1b44aab5f3847126306c.js
+[2022-03-06 20:13:34.808] [info] Performing file request: /primus-11bd7655d61c6a4f81ab.js, abs path /home/ackbar/.config/Notion/notionAssetCache-v2/23.10.16.10/assets/primus-11bd7655d61c6a4f81ab.js
+[2022-03-06 20:13:37.727] [info] Performing file request: /analytics-amplitude-981617b84d3bec606641.js, abs path /home/ackbar/.config/Notion/notionAssetCache-v2/23.10.16.10/assets/analytics-amplitude-981617b84d3bec606641.js
+[2022-03-06 20:13:37.728] [info] Performing file request: /analytics-segment-54ad19ecd33def6b8a93.js, abs path /home/ackbar/.config/Notion/notionAssetCache-v2/23.10.16.10/assets/analytics-segment-54ad19ecd33def6b8a93.js
+[2022-03-06 20:13:37.749] [info] Performing file request: /177-2b2c49d4bc58690ad39c.js, abs path /home/ackbar/.config/Notion/notionAssetCache-v2/23.10.16.10/assets/177-2b2c49d4bc58690ad39c.js
+[2022-03-06 20:13:37.750] [info] Performing file request: /postRender-427d48d47871597b8d9f.js, abs path /home/ackbar/.config/Notion/notionAssetCache-v2/23.10.16.10/assets/postRender-427d48d47871597b8d9f.js
+[2022-03-06 20:13:38.940] [info] Performing file request: /ajs-destination-6dd326b5dd0e028410b5.js, abs path /home/ackbar/.config/Notion/notionAssetCache-v2/23.10.16.10/assets/ajs-destination-6dd326b5dd0e028410b5.js
+[2022-03-06 20:13:42.132] [info] Checking for app update
+[2022-03-06 20:13:42.659] [info] App update available 23.10.23.3
+[2022-03-06 20:13:48.192] [info] App update download complete 23.10.23.3
+[2022-03-06 20:13:48.193] [info] Installing app update 23.10.23.3
+[2022-03-06 20:13:55.904] [info] Sync versions: assets.json path /home/ackbar/.config/Notion/notionAssetCache-v2/23.10.23.3/assets.json headers.json path /home/ackbar/.config/Notion/notionAssetCache-v2/23.10.23.3/headers.json
+[2022-03-06 20:13:55.917] [info] Performing file request: /Freeeeeeee-cc9fdd6b38ec4ca2adeefb705b21c27c, abs path /home/ackbar/.config/Notion/notionAssetCache-v2/23.10.23.3/assets/index-ko-KR-e3bb96d6b4484a497ac3.html
+[2022-03-06 20:13:56.047] [info] Performing file request: /677-07d069a322d4d0596686.js, abs path /home/ackbar/.config/Notion/notionAssetCache-v2/23.10.23.3/assets/677-07d069a322d4d0596686.js
+[2022-03-06 20:13:56.048] [info] Performing file request: /app-91eab0d6df448b110775.js, abs path /home/ackbar/.config/Notion/notionAssetCache-v2/23.10.23.3/assets/app-91eab0d6df448b110775.js
+[2022-03-06 20:13:56.049] [info] Performing file request: /app-6cb7cd1dced475bbd416.css, abs path /home/ackbar/.config/Notion/notionAssetCache-v2/23.10.23.3/assets/app-6cb7cd1dced475bbd416.css
+[2022-03-06 20:13:56.051] [info] Performing file request: /print.b31f28aa.css, abs path /home/ackbar/.config/Notion/notionAssetCache-v2/23.10.23.3/assets/print.b31f28aa.css
+[2022-03-06 20:13:56.970] [info] Performing file request: /markdown-linkify-it-de6de0a7cf56f508e657.js, abs path /home/ackbar/.config/Notion/notionAssetCache-v2/23.10.23.3/assets/markdown-linkify-it-de6de0a7cf56f508e657.js
+[2022-03-06 20:13:57.282] [info] Performing file request: /primus-11bd7655d61c6a4f81ab.js, abs path /home/ackbar/.config/Notion/notionAssetCache-v2/23.10.23.3/assets/primus-11bd7655d61c6a4f81ab.js
+[2022-03-06 20:13:57.618] [info] Performing file request: /analytics-amplitude-3c68b6ff07d238a40a08.js, abs path /home/ackbar/.config/Notion/notionAssetCache-v2/23.10.23.3/assets/analytics-amplitude-3c68b6ff07d238a40a08.js
+[2022-03-06 20:13:57.620] [info] Performing file request: /analytics-segment-af18d3454f59fe25a27c.js, abs path /home/ackbar/.config/Notion/notionAssetCache-v2/23.10.23.3/assets/analytics-segment-af18d3454f59fe25a27c.js
+[2022-03-06 20:13:58.962] [info] Performing file request: /541-aa662a705eb1f427590c.js, abs path /home/ackbar/.config/Notion/notionAssetCache-v2/23.10.23.3/assets/541-aa662a705eb1f427590c.js
+[2022-03-06 20:13:58.963] [info] Performing file request: /postRender-206ef7dfa9358e3277b9.js, abs path /home/ackbar/.config/Notion/notionAssetCache-v2/23.10.23.3/assets/postRender-206ef7dfa9358e3277b9.js
+[2022-03-06 20:14:07.205] [info] Performing file request: /twitter-7543c0d584a6e9826877.js, abs path /home/ackbar/.config/Notion/notionAssetCache-v2/23.10.23.3/assets/twitter-7543c0d584a6e9826877.js
+[2022-03-06 20:14:48.199] [info] Checking for app update
+[2022-03-06 20:14:48.742] [info] No app update available
+[2022-03-06 20:15:48.804] [info] Checking for app update
+[2022-03-06 20:15:49.127] [info] No app update available
+[2022-03-06 20:16:49.187] [info] Checking for app update
+[2022-03-06 20:16:49.761] [info] No app update available
+[2022-03-06 20:17:49.826] [info] Checking for app update
+[2022-03-06 20:17:50.426] [info] No app update available
+[2022-03-06 20:18:50.480] [info] Checking for app update
+[2022-03-06 20:18:50.947] [info] No app update available
+[2022-03-06 20:19:51.008] [info] Checking for app update
+[2022-03-06 20:19:51.496] [info] No app update available
+[2022-03-06 20:20:51.551] [info] Checking for app update
+[2022-03-06 20:20:52.088] [info] No app update available
+[2022-03-06 20:21:52.129] [info] Checking for app update
+[2022-03-06 20:21:52.546] [info] No app update available
+[2022-03-06 20:22:52.607] [info] Checking for app update
+[2022-03-06 20:22:52.957] [info] No app update available
+[2022-03-06 20:23:52.988] [info] Checking for app update
+[2022-03-06 20:23:53.615] [info] No app update available
+[2022-03-06 20:24:53.667] [info] Checking for app update
+[2022-03-06 20:24:54.931] [info] No app update available
+[2022-03-06 20:25:54.994] [info] Checking for app update
+[2022-03-06 20:25:55.612] [info] No app update available
+[2022-03-06 20:26:55.672] [info] Checking for app update
+[2022-03-06 20:26:56.788] [info] No app update available
+[2022-03-06 20:27:56.848] [info] Checking for app update
+[2022-03-06 20:27:57.397] [info] No app update available
+[2022-03-06 20:28:57.457] [info] Checking for app update
+[2022-03-06 20:28:58.135] [info] No app update available
+[2022-03-06 20:29:58.196] [info] Checking for app update
+[2022-03-06 20:29:58.572] [info] No app update available
+[2022-03-06 20:30:58.633] [info] Checking for app update
+[2022-03-06 20:30:59.539] [info] No app update available
+[2022-03-06 20:31:59.599] [info] Checking for app update
+[2022-03-06 20:32:00.773] [info] No app update available
+[2022-03-06 20:33:00.830] [info] Checking for app update
+[2022-03-06 20:33:01.287] [info] No app update available
+[2022-03-06 20:34:01.291] [info] Checking for app update
+[2022-03-06 20:34:03.185] [info] No app update available
+[2022-03-06 20:35:03.247] [info] Checking for app update
+[2022-03-06 20:35:03.739] [info] No app update available
+[2022-03-06 20:36:03.791] [info] Checking for app update
+[2022-03-06 20:36:04.683] [info] No app update available
+[2022-03-06 20:37:04.745] [info] Checking for app update
+[2022-03-06 20:37:05.603] [info] {
+  "level": "info",
+  "from": "assetCache",
+  "type": "updateAssetsResponseParse",
+  "data": {
+    "time": 112
+  }
+}
+[2022-03-06 20:37:05.606] [info] No app update available
+[2022-03-06 20:38:05.667] [info] Checking for app update
+[2022-03-06 20:38:06.462] [info] No app update available
+[2022-03-06 20:39:06.523] [info] Checking for app update
+[2022-03-06 20:39:08.670] [info] {
+  "level": "info",
+  "from": "assetCache",
+  "type": "updateAssetsResponseParse",
+  "data": {
+    "time": 230
+  }
+}
+[2022-03-06 20:39:08.671] [info] No app update available
+[2022-03-06 20:40:08.730] [info] Checking for app update
+[2022-03-06 20:40:09.419] [info] No app update available
+[2022-03-06 20:41:09.477] [info] Checking for app update
+[2022-03-06 20:41:10.049] [info] No app update available
+[2022-03-06 20:42:10.111] [info] Checking for app update
+[2022-03-06 20:42:10.586] [info] No app update available
+[2022-03-06 20:43:10.650] [info] Checking for app update
+[2022-03-06 20:43:11.173] [info] No app update available
+[2022-03-06 20:44:11.186] [info] Checking for app update
+[2022-03-06 20:44:11.767] [info] No app update available
+[2022-03-06 20:45:11.827] [info] Checking for app update
+[2022-03-06 20:45:12.525] [info] No app update available
+[2022-03-06 20:46:12.585] [info] Checking for app update
+[2022-03-06 20:46:14.068] [info] No app update available
+[2022-03-06 20:47:14.129] [info] Checking for app update
+[2022-03-06 20:47:15.020] [info] No app update available
+[2022-03-06 20:48:15.083] [info] Checking for app update
+[2022-03-06 20:48:16.261] [info] No app update available
+[2022-03-06 20:49:16.320] [info] Checking for app update
+[2022-03-06 20:49:17.153] [info] No app update available
+[2022-03-06 20:50:17.214] [info] Checking for app update
+[2022-03-06 20:50:17.539] [info] No app update available
+[2022-03-06 20:51:17.599] [info] Checking for app update
+[2022-03-06 20:51:18.388] [info] No app update available
+[2022-03-06 20:52:18.447] [info] Checking for app update
+[2022-03-06 20:52:19.281] [info] No app update available
+[2022-03-06 20:53:19.340] [info] Checking for app update
+[2022-03-06 20:53:20.182] [info] No app update available
+[2022-03-06 20:54:20.205] [info] Checking for app update
+[2022-03-06 20:54:20.820] [info] No app update available
+[2022-03-06 20:55:20.886] [info] Checking for app update
+[2022-03-06 20:55:21.582] [info] No app update available
+[2022-03-06 20:56:21.644] [info] Checking for app update
+[2022-03-06 20:56:22.016] [info] No app update available

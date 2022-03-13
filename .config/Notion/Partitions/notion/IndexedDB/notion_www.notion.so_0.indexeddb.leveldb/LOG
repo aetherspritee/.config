@@ -1,0 +1,12 @@
+2022/03/06-20:13:34.699 2e7aff Reusing MANIFEST /home/ackbar/.config/Notion/Partitions/notion/IndexedDB/notion_www.notion.so_0.indexeddb.leveldb/MANIFEST-000001
+2022/03/06-20:13:34.699 2e7aff Recovering log #7
+2022/03/06-20:13:34.715 2e7aff Reusing old log /home/ackbar/.config/Notion/Partitions/notion/IndexedDB/notion_www.notion.so_0.indexeddb.leveldb/000007.log 
+2022/03/06-20:13:41.229 2e7aff Level-0 table #13: started
+2022/03/06-20:13:41.272 2e7aff Level-0 table #13: 1469172 bytes OK
+2022/03/06-20:13:41.274 2e7aff Delete type=0 #7
+2022/03/06-20:13:42.031 2e7aee Compacting 1@1 + 1@2 files
+2022/03/06-20:13:42.055 2e7aee Generated table #14@1: 2999 keys, 432784 bytes
+2022/03/06-20:13:42.055 2e7aee Compacted 1@1 + 1@2 files => 432784 bytes
+2022/03/06-20:13:42.058 2e7aee compacted to: files[ 0 0 1 0 0 0 0 ]
+2022/03/06-20:13:42.058 2e7aee Delete type=2 #13
+2022/03/06-20:13:42.058 2e7aee Delete type=2 #10

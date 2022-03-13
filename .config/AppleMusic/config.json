@@ -1,0 +1,65 @@
+{
+	"general": {
+		"storefront": "de",
+		"incognitoMode": false,
+		"playbackNotifications": "true",
+		"trayTooltipSongName": true,
+		"startupPage": "library/recently-added",
+		"discordRPC": "am-title",
+		"discordClearActivityOnPause": true,
+		"lastfm": false,
+		"lastfmRemoveFeaturingArtists": true,
+		"lastfmNowPlaying": true,
+		"analyticsEnabled": false,
+		"lastfmScrobbleDelay": 30,
+		"checkForUpdates": true
+	},
+	"visual": {
+		"theme": "blurple",
+		"frameType": "",
+		"transparencyEffect": "",
+		"transparencyTheme": "appearance-based",
+		"transparencyDisableBlur": true,
+		"transparencyMaximumRefreshRate": "",
+		"streamerMode": true,
+		"removeUpsell": true,
+		"removeAppleLogo": true,
+		"removeFooter": true,
+		"removeScrollbars": true,
+		"useOperatingSystemAccent": false,
+		"albumartNPPLaylist": false,
+		"scaling": 1,
+		"yton": false,
+		"mxmon": false,
+		"mxmlanguage": "en"
+	},
+	"audio": {
+		"audioQuality": "extreme",
+		"seamlessAudioTransitions": true,
+		"castingBitDepth": "16",
+		"enableDLNA": false
+	},
+	"window": {
+		"appStartupBehavior": "hidden",
+		"closeButtonMinimize": true,
+		"alwaysOnTop": false
+	},
+	"advanced": {
+		"forceApplicationMode": "system",
+		"hardwareAcceleration": false,
+		"verboseLogging": false,
+		"autoUpdaterBetaBuilds": false,
+		"useBetaSite": true,
+		"preventMediaKeyHijacking": false,
+		"devToolsOnStartup": false,
+		"allowMultipleInstances": false
+	},
+	"tokens": {
+		"lastfm": ""
+	},
+	"__internal__": {
+		"migrations": {
+			"version": "3.0.0"
+		}
+	}
+}

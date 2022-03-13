@@ -1,0 +1,8 @@
+[2021-12-19 20:52:35.326] [renderer1] [info] Starting extension host with pid 210643.
+[2021-12-19 20:52:35.326] [renderer1] [info] [LocalProcessExtensionHost]: IExtensionHostStarter.start() took 29 ms.
+[2021-12-19 20:52:35.856] [renderer1] [error] [Extension Host] (node:210643) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `electron --trace-deprecation ...` to show where the warning was created)
+[2021-12-19 20:52:38.372] [renderer1] [error] EACCES: permission denied, open '/usr/lib/code/extensions/dart/package.json': Error: EACCES: permission denied, open '/usr/lib/code/extensions/dart/package.json'
+[2021-12-19 20:52:38.373] [renderer1] [error] EACCES: permission denied, open '/usr/lib/code/extensions/java/package.json': Error: EACCES: permission denied, open '/usr/lib/code/extensions/java/package.json'
+[2021-12-19 20:52:38.374] [renderer1] [error] EACCES: permission denied, open '/usr/lib/code/extensions/bat/package.json': Error: EACCES: permission denied, open '/usr/lib/code/extensions/bat/package.json'
+[2021-12-19 20:52:38.374] [renderer1] [error] EACCES: permission denied, open '/usr/lib/code/extensions/xml/package.json': Error: EACCES: permission denied, open '/usr/lib/code/extensions/xml/package.json'
