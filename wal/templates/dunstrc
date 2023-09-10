@@ -1,0 +1,40 @@
+[global]
+    width = 300
+    padding = 10
+    horizontal_padding = 12
+    offset = 15x35
+    corner_radius = 0
+    frame_color = "{color5}"
+    frame_width = 4
+    transparency = 5
+    font = "CaskaydiaCove Nerd Font 12"
+    gap_size = 10
+    format = "<b>%s</b>\n%b"
+    markup = full
+    icon_path = "/usr/share/icons/Papirus/16x16/actions:/usr/share/icons/Papirus/16x16/apps"
+    icon_theme = "Papirus"
+
+[urgency_low]
+    background = "{background}"
+    foreground = "{foreground}"
+
+[urgency_normal]
+    background = "{background}"
+    foreground = "{foreground}"
+
+[urgency_critical]
+    background = "{background}"
+    foreground = "{foreground}"
+
+[mpd]
+	appname = "mpd"
+	alignment = center
+	format = "<b>%s</b>\n%b"
+	icon_position = top
+	min_icon_size = 210
+	max_icon_size = 210
+
+
+[play_sound]
+summary = "*"
+script = ~/.countersh/alert.sh
