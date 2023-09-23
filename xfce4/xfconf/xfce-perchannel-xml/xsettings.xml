@@ -33,8 +33,8 @@
     <property name="MenuImages" type="empty"/>
     <property name="ButtonImages" type="empty"/>
     <property name="MenuBarAccel" type="empty"/>
-    <property name="CursorThemeName" type="string" value="Chicago95 Standard Cursors"/>
-    <property name="CursorThemeSize" type="empty"/>
+    <property name="CursorThemeName" type="string" value="macOS-BigSur"/>
+    <property name="CursorThemeSize" type="int" value="17"/>
     <property name="DecorationLayout" type="empty"/>
     <property name="DialogsUseHeader" type="empty"/>
     <property name="TitlebarMiddleClick" type="empty"/>

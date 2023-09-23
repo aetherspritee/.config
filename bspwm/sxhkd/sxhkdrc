@@ -63,8 +63,8 @@ super + c
     conky-toggle
 
 #Htop
-super + shift + h
-      alacritty -e bashtop
+super + shift + x
+      betterlockscreen -l dimblur
 
 #arcolinux-logout
 super + x

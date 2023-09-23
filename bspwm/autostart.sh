@@ -15,7 +15,7 @@ else
   run sxhkd -c ~/.config/bspwm/sxhkd/sxhkdrc &
 fi
 
-feh --bg-fill ~/Pictures/gruvbox_pink.png
+feh --bg-fill ~/Dropbox/Wallpapers/forest.jpg
 
 export ZDOTDIR=$HOME/.config/zsh
 dex $HOME/.config/autostart/arcolinux-welcome-app.desktop
@@ -27,12 +27,17 @@ run xfce4-power-manager &
 numlockx on &
 blueberry-tray &
 picom --config $HOME/.config/picom/picom.conf &
-dropbox &
+run dropbox &
 /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
 run volumeicon &
 run dropbox &
 
-bash ~/.config/polybar/launch.sh --blocks
-bash ~/.config/polybar/blocks/launch.sh
+setxkbmap -option caps:escape
+
+# bash ~/.config/polybar/launch.sh --blocks
+# bash ~/.config/polybar/blocks/launch.sh
+eww open bar0
 /usr/bin/emacs --daemon &
 bash wmname LG3D
+playerctld daemon
+run dropbox &
