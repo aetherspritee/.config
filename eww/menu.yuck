@@ -33,8 +33,9 @@
     (box :class "sysmenu-powermenu"
          :halign "end"
          :spacing 5
-      (button :class "title2"
-           :onclick "loginctl kill-session $XDG_SESSION_ID")
+       (button :class "title2"
+            :onclick "loginctl kill-session $XDG_SESSION_ID")
+
       (button :class "powermenu-button"
            :onclick "loginctl kill-session $XDG_SESSION_ID"
  (image :class "svg-tag" :path "images/door.png" :image-width "20" :image-height "20"))

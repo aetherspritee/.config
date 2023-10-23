@@ -1,6 +1,6 @@
 
 * {
-    font-family: Iosevka;
+    font-family: Tamzen;
 }
 
 /* $bg-color: #2e2e38; */
@@ -64,8 +64,12 @@ $yellow2: #fabd2f;
 	// padding-right: 20px;
 // }
 
+.metric-icon {
+    font-size: 18px;
+}
+
 .title {
-    font-size: 15px;
+    font-size: 18px;
     font-weight: bold;
     margin: 8px 0;
 	background-color: $box-color2;
@@ -105,7 +109,7 @@ $yellow2: #fabd2f;
 }
 
 .hour {
-    font-size: 18px;
+    font-size: 22px;
     font-weight: bold;
     padding-top: 4px;
 }
@@ -137,7 +141,7 @@ $yellow2: #fabd2f;
 }
 
 .metric-progress {
-    padding: 18px 0;
+    padding: 2px 0;
 
     trough {
         background-color: $box-color;
@@ -152,6 +156,10 @@ $yellow2: #fabd2f;
             margin: 0 2px;
         }
     }
+}
+
+.info-box {
+    padding: 10px 0;
 }
 
 /* SYSTEM MENU */
@@ -186,7 +194,6 @@ $yellow2: #fabd2f;
 .sysmenu-powermenu {
     padding-top: 3px;
     padding-bottom: 2px;
-    font-family: "Material Design Icons Desktop";
 }
 
 .powermenu-button {
@@ -265,6 +272,11 @@ $yellow2: #fabd2f;
 
 }
 
+.svg-tag3 {
+    border-radius: 50px;
+}
+
+
 .sysmenu-user2 {
 	border-radius: 30%;
 }
@@ -274,7 +286,7 @@ $yellow2: #fabd2f;
   border-radius: 50px;
   min-height: 6px;
   min-width: 110px;
-  margin-top: 6px;
+  margin-top: 13px;
   margin-left: 0px;
   margin-right: 0px;
 }
@@ -303,7 +315,7 @@ $yellow2: #fabd2f;
 }
 
 .music_backgroudn {
-    font-size: 14px;
+    font-size: 18px;
     font-weight: bold;
     color: #ffffff;
     margin: 8px 0;

@@ -15,7 +15,7 @@ else
   run sxhkd -c ~/.config/bspwm/sxhkd/sxhkdrc &
 fi
 
-feh --bg-fill ~/Dropbox/Wallpapers/forest.jpg
+feh --bg-fill ~/Wallpapers/forest.jpg
 
 export ZDOTDIR=$HOME/.config/zsh
 dex $HOME/.config/autostart/arcolinux-welcome-app.desktop
@@ -31,13 +31,15 @@ run dropbox &
 /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
 run volumeicon &
 run dropbox &
+run dunst &
+/usr/bin/emacs-29.1 --daemon &
 
 setxkbmap -option caps:escape
 
 # bash ~/.config/polybar/launch.sh --blocks
 # bash ~/.config/polybar/blocks/launch.sh
 eww open bar0
-/usr/bin/emacs --daemon &
 bash wmname LG3D
 playerctld daemon
 run dropbox &
+run dunst &
